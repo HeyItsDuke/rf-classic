@@ -1,0 +1,53 @@
+// game.tbl
+//
+// file to specify gamewide constants for ease of tweaking, modification, etc
+// some or all of this stuff might end up better specified on a per-entity basis
+// in which case it will go into entity.tbl.
+//
+// What stuff means:
+// --------------------------------------------------------------------
+// $Entity Gravity:				gravity for entities (debris and stuff use different physics), in meters per second squared downward acceleration
+// $Entity Terminal Velocity:	maximum neg y velocity for falling entities (meters per second)
+// $Min Fall Damage Height:	fall distance beyond which at least some damage will occur (meters)
+// $Max Fall Damage Height:	fall distance beyond which instant death will occur (meters)
+// $Max Entity Jump Height:	pretty obvious (meters)
+// $Custom Texture Cache Size (KB):  size, in KB, or custom tex software cache (so 1000 = 1MB)
+// $Custom Texture Max Textures: max num software custom textures allowed
+// $Player Footstep Pan:			 stereo effect for player footsteps.  0 = no effect, 1 = total left/right alternation
+// $Player Step Distance:			footstep sound plays every x meters of movement (1st person player only)
+// $Player Step Distance Climb:	footstep sound plays every x meters of movement (1st person player only)
+// $First Level Filename:		What level gets loaded first when starting a new game
+// $Lava Damage Per Second:   Damage taken by objects per second, while in lava
+// $Acid Damage Per Second:	Damage taken by objects per second, while in acid
+// $Main Menu Music Filename:	Disk filename (.wav) for music played at the main menu
+// $Default Player Weapon:		Weapon that main player starts with by default
+// ----------------------------------------------------------------------
+
+$Min Fall Damage Height:	7.5
+$Max Fall Damage Height:	25.0
+$Max Entity Jump Height:	1.33
+
+$Player Footstep Pan:					0.2
+$Player Step Distance:					1.8
+$Player Step Distance Climb:			1.8
+
+$First Level Filename:					"l1s1.rfl"
+
+$Lava Damage Per Second:				35
+$Acid Damage Per Second:				25
+
+$Legs Pos Y:								0.0
+$Legs Pos Z:								0.3
+$Legs FOV:									120
+
+$Main Menu Music Filename:				"music1.wav"
+
+$Intro Movie Filename:              "intro.bik"
+
+$Default Player Weapon:					"12mm handgun"
+
+$Multi Damage Modifier:					0.0
+$Multi Player Acceleration:				20.0
+
+// Uncommenting this is not recommended.
+// +No Geomod Limit

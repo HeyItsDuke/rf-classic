@@ -1,0 +1,205 @@
+0  "TRAINING_PS2_02_INST_01.wav" 
+En: "Ask nicely, and the miner will open the door for you."
+Gr: "(gr)Ask nicely, and the miner will open the door for you."
+Fr: "(fr)Ask nicely, and the miner will open the door for you." 
+
+1  "" 
+En: "Press Use ($USE$) to interact with people."
+Gr: "(gr)Press Use ($USE$) to interact with people."
+Fr: "(fr)Press Use ($USE$) to interact with people." 
+
+2  "TRAINING_PS2_02_MIN_01.wav"
+En: "Go right on through, Parker."
+Gr: "(gr)Go right on through, Parker."
+Fr: "(fr)Go right on through, Parker." 
+
+3  "TRAINING_PS2_02_INST_02.wav"
+En: "Like the sub? We stole it from Ultor."
+Gr: "(gr)Like the sub? We stole it from Ultor."
+Fr: "(fr)Like the sub? We stole it from Ultor." 
+
+4  "TRAINING_PS2_02_INST_03.wav" 
+En: "Climb in and take it for a ride, in case you have to drive a vehicle after we launch the revolt."
+Gr: "(gr)Climb in and take it for a ride, in case you have to drive a vehicle after we launch the revolt."
+Fr: "(fr)Climb in and take it for a ride, in case you have to drive a vehicle after we launch the revolt." 
+
+5  "" 
+En: "Go over to the sub and press Use ($USE$) to enter."
+Gr: "(gr)Go over to the sub and press Use ($USE$) to enter."
+Fr: "(frGo over to the sub and press Use ($USE$) to enter." 
+
+6  "TRAINING_PS2_02_INST_04.wav" 
+En: "Fire some torpedoes to get a feel for it."
+Gr: "(gr)Fire some torpedoes to get a feel for it."
+Fr: "(fr)Fire some torpedoes to get a feel for it." 
+
+7  "TRAINING_PS2_02_INST_05.wav" 
+En: "Head for the other tunnel when you're ready to continue."
+Gr: "(gr)Head for the other tunnel when you're ready to continue."
+Fr: "(fr)Head for the other tunnel when you're ready to continue." 
+
+8  "TRAINING_PS2_02_INST_06.wav"
+En: "Climb out of the sub and go up the stairs."
+Gr: "(gr)Climb out of the sub and go up the stairs."
+Fr: "(fr)Climb out of the sub and go up the stairs." 
+
+9  "" 
+En: "Press Use ($USE$) to exit the sub."
+Gr: "(gr)Press Use ($USE$) to exit the sub."
+Fr: "(fr)Press Use ($USE$) to exit the sub." 
+
+10  "TRAINING_PS2_02_INST_07.wav"
+En: "Open the gun cabinet and grab the pistol and sniper rifle."
+Gr: "(gr)Open the gun cabinet and grab the pistol and sniper rifle."
+Fr: "(fr)Open the gun cabinet and grab the pistol and sniper rifle." 
+
+11  "TRAINING_PS2_02_INST_22.wav"
+En: "Sometimes it pays to be inconspicuous. Holstering your weapon will help you blend in, since guns make people jumpy."
+Gr: "(gr)Sometimes it pays to be inconspicuous. Holstering your weapon will help you blend in, since guns make people jumpy."
+Fr: "(fr)Sometimes it pays to be inconspicuous. Holstering your weapon will help you blend in, since guns make people jumpy." 
+
+12  "" 
+En: "Press the Holster ($HOLSTER$) button to holster and unholster your weapon."
+Gr: "(gr)Press the Holster ($HOLSTER$) button to holster and unholster your weapon."
+Fr: "(fr)Press the Holster ($HOLSTER$) button to holster and unholster your weapon." 
+
+13  "TRAINING_PS2_02_INST_08.wav" 
+En: "Take some target practice here. Be sure to destroy all the bottles."
+Gr: "(gr)Take some target practice here. Be sure to destroy all the bottles."
+Fr: "(fr)Take some target practice here. Be sure to destroy all the bottles." 
+
+14  "" 
+En: "Press the Fire ($FIRE$) button to fire."
+Gr: "(gr)Press the Fire ($FIRE$) button to fire."
+Fr: "(fr)Press the Fire ($FIRE$) button to fire." 
+
+15  ""
+En: "Press the Alt Fire ($ALT_FIRE$) button to zoom in with the sniper rifle or attach the silencer to the pistol."
+Gr: "(gr)Press the Alt Fire ($ALT_FIRE$) button to zoom in with the sniper rifle or attach the silencer to the pistol."
+Fr: "(fr)Press the Alt Fire ($ALT_FIRE$) button to zoom in with the sniper rifle or attach the silencer to the pistol." 
+
+16  "TRAINING_PS2_02_INST_09.wav"
+En: "Open up your message log and scroll through the messages I've sent you."
+Gr: "(gr)Open up your message log and scroll through the messages I've sent you."
+Fr: "(fr)Open up your message log and scroll through the messages I've sent you." 
+
+17  "" 
+En: "Press the Message Log ($MESSAGE_LOG$) button to open or close the message log."
+Gr: "(gr)Press the Message Log ($MESSAGE_LOG$) button to open or close the message log."
+Fr: "(fr)Press the Message Log ($MESSAGE_LOG$) button to open or close the message log." 
+
+18  "" 
+En: ""
+Gr: ""
+Fr: "" 
+
+19  "TRAINING_PS2_02_INST_10.wav" 
+En: "This log automatically records messages that you receive."
+Gr: "(gr)This log automatically records messages that you receive."
+Fr: "(fr)This log automatically records messages that you receive." 
+
+20  "TRAINING_PS2_02_INST_11.wav"
+En: "Reinforced glass is unbreakable. Go ahead -- shoot it."
+Gr: "(gr)Reinforced glass is unbreakable. Go ahead -- shoot it."
+Fr: "(fr)Reinforced glass is unbreakable. Go ahead -- shoot it." 
+
+21  "TRAINING_PS2_02_INST_12.wav"
+En: "Normal glass can be shattered by weapon fire, allowing you into the room beyond."
+Gr: "(gr)Normal glass can be shattered by weapon fire, allowing you into the room beyond."
+Fr: "(fr)Normal glass can be shattered by weapon fire, allowing you into the room beyond." 
+
+22  "TRAINING_PS2_02_INST_13.wav"  
+En: "The containers inside the room hold a rocket launcher and some remote charges."
+Gr: "(gr)The containers inside the room hold a rocket launcher and some remote charges."
+Fr: "(fr)The containers inside the room hold a rocket launcher and some remote charges." 
+
+23  "TRAINING_PS2_02_INST_14.wav" 
+En: "Use these to blow a hole in the wall at the 'X.'"
+Gr: "(gr)Use these to blow a hole in the wall at the 'X.'"
+Fr: "(fr)Use these to blow a hole in the wall at the 'X.'" 
+
+24  ""  
+En: "Press the Next Weapon ($NEXT_WEAPON$) and Previous Weapon buttons ($PREV_WEAPON$) to cycle through your available weapons."
+Gr: "(gr)Press the Next Weapon ($NEXT_WEAPON$) and Previous Weapon buttons ($PREV_WEAPON$) to cycle through your available weapons."
+Fr: "(fr)Press the Next Weapon ($NEXT_WEAPON$) and Previous Weapon buttons ($PREV_WEAPON$) to cycle through your available weapons." 
+
+25  "TRAINING_PS2_02_INST_15.wav" 
+En: "Once the hole's big enough, go through it. Then get onto the elevator back to the mines."
+Gr: "(gr)Once the hole's big enough, go through it. Then get onto the elevator back to the mines."
+Fr: "(fr)Once the hole's big enough, go through it. Then get onto the elevator back to the mines." 
+
+26  "TRAINING_PS2_02_INST_16.wav"
+En: "Congratulations, you've passed the Red Faction training session!"
+Gr: "(gr)Congratulations, you've passed the Red Faction training session!"
+Fr: "(fr)Congratulations, you've passed the Red Faction training session!" 
+
+27  "" 
+En: "Activate the elevator to exit the training area."
+Gr: "(gr)Activate the elevator to exit the training area."
+Fr: "(fr)Activate the elevator to exit the training area." 
+
+28  "TRAINING_PS2_02_INST_17.wav" 
+En: "Nothing more to shoot here, Parker. Keep moving."
+Gr: "(gr)Nothing more to shoot here, Parker. Keep moving."
+Fr: "(fr)Nothing more to shoot here, Parker. Keep moving." 
+
+29  "TRAINING_PS2_02_INST_18.wav"  
+En: "This door's locked. You'll have to find another way around."
+Gr: "(gr)This door's locked. You'll have to find another way around."
+Fr: "(fr)This door's locked. You'll have to find another way around." 
+
+30  "TRAINING_PS2_02_INST_19.wav"  
+En: "The gauge in the upper right of your HUD shows how much ammo you have left."
+Gr: "(gr)The gauge in the upper right of your HUD shows how much ammo you have left."
+Fr: "(fr)The gauge in the upper right of your HUD shows how much ammo you have left." 
+
+31  "TRAINING_PS2_02_INST_20.wav" 
+En: "The first number shows the rounds in your weapon. The second shows the extra rounds you're carrying."
+Gr: "(gr)The first number shows the rounds in your weapon. The second shows the extra rounds you're carrying."
+Fr: "(fr)The first number shows the rounds in your weapon. The second shows the extra rounds you're carrying." 
+
+32  "TRAINING_PS2_02_INST_21.wav" 
+En: "Go through the door on your left to enter the target range."
+Gr: "(gr)Go through the door on your left to enter the target range."
+Fr: "(fr)Go through the door on your left to enter the target range." 
+
+33  ""  
+En: "Press the Fire ($FIRE$) button to select the highlighted weapon. Press the Alt Fire ($ALT_FIRE$) button to exit without selecting a weapon."
+Gr: "(gr)Press the Fire ($FIRE$) button to select the highlighted weapon. Press the Alt Fire ($ALT_FIRE$) button to exit without selecting a weapon."
+Fr: "(fr)Press the Fire ($FIRE$) button to select the highlighted weapon. Press the Alt Fire ($ALT_FIRE$) button to exit without selecting a weapon." 
+
+34  "" 
+En: "Press the Fine Aim ($FINE_AIM$) button for more precise aiming. This is helpful when you use scoped weapons."
+Gr: "(gr)Press the Fine Aim ($FINE_AIM$) button for more precise aiming. This is helpful when you use scoped weapons."
+Fr: "(fr)Press the Fine Aim ($FINE_AIM$) button for more precise aiming. This is helpful when you use scoped weapons." 
+
+35  "" 
+En: "Press the Reload ($RELOAD$) button to put a fresh magazine in your current weapon."
+Gr: "(gr)Press the Reload ($RELOAD$) button to put a fresh magazine in your current weapon."
+Fr: "(fr)Press the Reload ($RELOAD$) button to put a fresh magazine in your current weapon." 
+
+36  "TRAINING_PS2_02_INST_23.wav" 
+En: "Explosive weapons damage only softer materials, such as concrete, cement, or rock, not harder materials, such as metal or steel."
+Gr: "(gr)Explosive weapons damage only softer materials, such as concrete, cement, or rock, not harder materials, such as metal or steel."
+Fr: "(fr)Explosive weapons damage only softer materials, such as concrete, cement, or rock, not harder materials, such as metal or steel." 
+
+37  "TRAINING_PS2_02_INST_24.wav"
+En: "You must ask the miner to open the door before moving on to the next stage of training."
+Gr: "(gr)You must ask the miner to open the door before moving on to the next stage of training."
+Fr: "(fr)You must ask the miner to open the door before moving on to the next stage of training." 
+
+38  "TRAINING_PS2_02_INST_25.wav" 
+En: "You have to shoot all the bottles before advancing to the next section of training."
+Gr: "(gr)You have to shoot all the bottles before advancing to the next section of training."
+Fr: "(fr)You have to shoot all the bottles before advancing to the next section of training." 
+
+39  "TRAINING_PS2_02_INST_26.wav"  
+En: "You must take the weapons from the cabinet before progressing on to the next training stage."
+Gr: "(gr)You must take the weapons from the cabinet before progressing on to the next training stage."
+Fr: "(fr)You must take the weapons from the cabinet before progressing on to the next training stage." 
+
+40  "TRAINING_PS2_02_INST_27.wav" 
+En: "OK, Parker -- time to go. Get back to the barracks before you're missed."
+Gr: "(gr)OK, Parker -- time to go. Get back to the barracks before you're missed."
+Fr: "(fr)OK, Parker -- time to go. Get back to the barracks before you're missed." 
+

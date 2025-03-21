@@ -1,0 +1,329 @@
+/*
+hud.tbl
+ coordinates for hud items in each resolution
+ format is:		index  x  y
+ index #defines found in hud.h
+ may change this to calculate higher resolutions instead of doing them by hand
+ (r) indicates a right justified item
+
+NOTE: only 640 has been at all tweaked so far!
+*/
+
+// default colors
+$HUD default color:		{228, 205,  32, 255}
+$HUD msg color:			{228, 205,  32, 255}
+$HUD msg bg color:		{ 30,  31,  16, 220}
+$HUD full color:		{  0, 255,   0, 105}
+$HUD mid color:			{255, 255,   0, 150}
+$HUD low color:			{255,   0,   0, 150}
+$HUD countdown color:	{153, 153, 153, 255}
+$HUD body msg color:	{ 53, 109,  53}
+
+#PS2 NTSC
+0		33		35					// health
+1		75		63					// health value ul corner
+2		33		19					// health value width and height
+3		10		16					// envirosuit
+4		109	63					// envirosuit value ul corner
+5		34		18					// envirosuit value width and height
+6		518	22					// ammo bar
+7		496	22					// ammo signal (behind icon)
+8		505	29					// ammo icon
+9		522	25					// ammo in clip text ul region coord
+10		39		28					// ammo in clip text width and height
+11		566	25					// ammo in inv text ul region coord
+12		59		28					// ammo in inv text width and height
+13		296	218				// reticle
+14		562	22					// ammo bar position (with no clip, i.e. when using rockets)
+15		540	22					// ammo signal position (with no clip)
+16		549	27					// ammo icon position (with no clip)
+17		566	25					// ammo in inv ul region coord (with no clip)
+18		59		28					// ammo in inv text width and height (with no clip)
+19		134	134				// Scope center circle radius (along x and y axes)
+20		320	16					// Front damage indicator center
+21		16		240				// Left damage indicator center
+22		320	464				// Back damage indicator center
+23		624	240				// Right damage indicator center
+24    519   24             // ammo in clip (bar) ul coord
+25    43    38             // ammo in clip (bar) width and height
+26		320	16					// Front damage indicator center SPLITSCREEN (relative to clip region)
+27		16		240				// Left damage indicator center SPLITSCREEN (relative to clip region)
+28		320	232				// Back damage indicator center SPLITSCREEN (relative to clip region)
+29		212	240				// Right damage indicator center SPLITSCREEN (relative to clip region)
+30		166	21					// hud persona message box upper left
+31		438	68					// hud persona message box width/height
+32		239	23					// hud persona message box text area upper left
+33		360	0					// hud persona message box text area width (height ignored)
+34		168	23					// hud persona head image
+35		168	89					// hud persona head image name
+36		-65	319				// hud persona sub offset
+37		320	320				// hud message (non persona) width and upper Y value (they render centered)
+38		475	0					// hud message log text area width (height ignored)
+39		507	102				// hud countdown timer
+40		30		137				// #define HUD_CORPSE_ICON	
+41		70		180				// #define HUD_CORPSE_TEXT	
+42		38		44					// #define HUD_JEEP				
+43		153	54					// #define HUD_JEEP_FRAME	
+44		157	56					// #define HUD_JEEP_VALUE	
+45		62		35					// #define HUD_DRILLER		
+46		229	48					// #define HUD_DRILLER_FRAME
+47		233	50					// #define HUD_DRILLER_VALUE
+#End
+
+#PS2 PAL
+0		33		35					// health
+1		75		63					// health value ul corner
+2		33		19					// health value width and height
+3		10		16					// envirosuit
+4		109	63					// envirosuit value ul corner
+5		34		18					// envirosuit value width and height
+6		518	22					// ammo bar
+7		496	22					// ammo signal (behind icon)
+8		505	29					// ammo icon
+9		522	25					// ammo in clip text ul region coord
+10		39		28					// ammo in clip text width and height
+11		566	25					// ammo in inv text ul region coord
+12		59		28					// ammo in inv text width and height
+13		296	218				// reticle
+14		562	22					// ammo bar position (with no clip, i.e. when using rockets)
+15		540	22					// ammo signal position (with no clip)
+16		549	27					// ammo icon position (with no clip)
+17		566	25					// ammo in inv ul region coord (with no clip)
+18		59		28					// ammo in inv text width and height (with no clip)
+19		134	134				// Scope center circle radius (along x and y axes)
+20		320	16					// Front damage indicator center
+21		16		256				// Left damage indicator center
+22		320	496				// Back damage indicator center
+23		624	256				// Right damage indicator center
+24    519   24             // ammo in clip (bar) ul coord
+25    43    38             // ammo in clip (bar) width and height
+26		320	16					// Front damage indicator center SPLITSCREEN (relative to clip region)
+27		16		272				// Left damage indicator center SPLITSCREEN (relative to clip region)
+28		320	264				// Back damage indicator center SPLITSCREEN (relative to clip region)
+29		212	272				// Right damage indicator center SPLITSCREEN (relative to clip region)
+30		166	21					// hud persona message box background ul
+31		438	68					// hud persona message box background w/h
+32		239	23					// hud persona message box text area upper left
+33		360	0					// hud persona message box text area width (height ignored)
+34		168	23					// hud persona head image
+35		168	89					// hud persona head image name
+36		-65	319				// hud persona sub offset
+37		320	320				// hud message (non persona) width and upper Y value (they render centered)
+38		475	0					// hud message log text area width (height ignored)
+39		507	102				// hud countdown timer
+40		30		137				// #define HUD_CORPSE_ICON	
+41		70		180				// #define HUD_CORPSE_TEXT	
+42		38		44					// #define HUD_JEEP				
+43		153	54					// #define HUD_JEEP_FRAME	
+44		157	56					// #define HUD_JEEP_VALUE	
+45		62		35					// #define HUD_DRILLER		
+46		229	48					// #define HUD_DRILLER_FRAME
+47		233	50					// #define HUD_DRILLER_VALUE
+#End
+
+#640x480
+0		24		25				// health
+1		62		53				// health value ul corner
+2		38		19				// health value width and height
+3		5		6				// envirosuit
+4		100	53				// envirosuit value ul corner
+5		39		18				// envirosuit value width and height
+6		518	12				// ammo bar
+7		496	12				// ammo signal (behind icon)
+8		493	11				// ammo icon
+9		522	15				// ammo in clip text ul region coord
+10		39		28				// ammo in clip text width and height
+11		566	15				// ammo in inv text ul region coord
+12		59		28				// ammo in inv text width and height
+13		296	218			// reticle
+14		562	12				// ammo bar position (with no clip, i.e. when using rockets)
+15		540	12				// ammo signal position (with no clip)
+16		540	12				// ammo icon position (with no clip)
+17		576	15				// ammo in inv ul region coord (with no clip)
+18		49		28				// ammo in inv text width and height (with no clip)
+19		134	134			// Scope center circle radius (along x and y axes)
+20		320	16				// Front damage indicator center
+21		16		240			// Left damage indicator center
+22		320	464			// Back damage indicator center
+23		624	240			// Right damage indicator center
+24		519	14				// ammo in clip (bar) ul coord
+25		33		38				// ammo in clip (bar) width and height
+26		320	16				// Front damage indicator center SPLITSCREEN (relative to clip region)
+27		16		240			// Left damage indicator center SPLITSCREEN (relative to clip region)
+28		320	232			// Back damage indicator center SPLITSCREEN (relative to clip region)
+29		212	240			// Right damage indicator center SPLITSCREEN (relative to clip region)
+30		166	10				// hud persona message box background ul
+31		438	70				// hud persona message box background w/h
+32		239	23				// hud persona message box text area upper left
+33		245	0				// hud persona message box text area width (height ignored)
+34		168	23				// hud persona head image
+35		168	92				// hud persona head image name
+36		0		360			// hud persona sub offset - x is ignored, always centered
+37		320	340			// hud message (non persona) width and upper Y value (they render centered)
+38		420	0				// hud message log text area width (height ignored)
+39		17		133			// hud countdown timer
+40		35		137			// #define HUD_CORPSE_ICON	
+41		75		180			// #define HUD_CORPSE_TEXT	
+42		38		44				// #define HUD_JEEP				
+43		153	54				// #define HUD_JEEP_FRAME	
+44		157	56				// #define HUD_JEEP_VALUE	
+45		62		35				// #define HUD_DRILLER		
+46		229	48				// #define HUD_DRILLER_FRAME
+47		233	50				// #define HUD_DRILLER_VALUE
+#End
+
+
+#800x600
+0		24		25				// health
+1		62		53				// health value ul corner
+2		38		19				// health value width and height
+3		5		6				// envirosuit
+4		100		53				// envirosuit value ul corner
+5		39		18				// envirosuit value width and height
+6		678		12				// ammo bar
+7		656		12				// ammo signal (behind icon)
+8		655		12				// ammo icon
+9		682		15				// ammo in clip text ul region coord
+10		39		28				// ammo in clip text width and height
+11		726		15				// ammo in inv text ul region coord
+12		59		28				// ammo in inv text width and height
+13		296		218				// reticle
+14		722		12				// ammo bar position (with no clip, i.e. when using rockets)
+15		700		12				// ammo signal position (with no clip)
+16		700		12				// ammo icon position (with no clip)
+17		726		15				// ammo in inv ul region coord (with no clip)
+18		59		28				// ammo in inv text width and height (with no clip)
+19		134		134				// Scope center circle radius (along x and y axes)
+20		400		16				// Front damage indicator center
+21		16		300				// Left damage indicator center
+22		400		584				// Back damage indicator center
+23		784		300				// Right damage indicator center
+24		679		14				// ammo in clip (bar) ul coord
+25		44		38				// ammo in clip (bar) width and height
+26		320		16				// Front damage indicator center SPLITSCREEN (relative to clip region)
+27		16		240				// Left damage indicator center SPLITSCREEN (relative to clip region)
+28		320		232				// Back damage indicator center SPLITSCREEN (relative to clip region)
+29		212		240				// Right damage indicator center SPLITSCREEN (relative to clip region)
+30		180		10				// hud persona message box background ul
+31		440		68				// hud persona message box background w/h
+32		254		23				// hud persona message box text area upper left
+33		405		0				// hud persona message box text area width (height ignored)
+34		183		23				// hud persona head image
+35		183		92				// hud persona head image name
+36		0		480				// hud persona sub offset
+37		400		425				// hud message (non persona) width and upper Y value (they render centered)
+38		420		0				// hud message log text area width (height ignored)
+39		17		133			// hud countdown timer
+40		35		137				// #define HUD_CORPSE_ICON	
+41		75		180				// #define HUD_CORPSE_TEXT	
+42		38		44				// #define HUD_JEEP				
+43		153		54				// #define HUD_JEEP_FRAME	
+44		157		56				// #define HUD_JEEP_VALUE	
+45		62		35				// #define HUD_DRILLER		
+46		229		48				// #define HUD_DRILLER_FRAME
+47		233		50				// #define HUD_DRILLER_VALUE
+#End
+
+
+#1024x768
+0		24		25				// health
+1		62		53				// health value ul corner
+2		38		19				// health value width and height
+3		5		6				// envirosuit
+4		100		53				// envirosuit value ul corner
+5		39		18				// envirosuit value width and height
+6		903		12				// ammo bar
+7		881		12				// ammo signal (behind icon)
+8		880		12				// ammo icon
+9		907		15				// ammo in clip text ul region coord
+10		39		28				// ammo in clip text width and height
+11		951		15				// ammo in inv text ul region coord
+12		59		28				// ammo in inv text width and height
+13		296		218				// reticle
+14		947		12				// ammo bar position (with no clip, i.e. when using rockets)
+15		925		12				// ammo signal position (with no clip)
+16		925		12				// ammo icon position (with no clip)
+17		951		15				// ammo in inv ul region coord (with no clip)
+18		59		28				// ammo in inv text width and height (with no clip)
+19		134		134				// Scope center circle radius (along x and y axes)
+20		512		16				// Front damage indicator center
+21		16		384				// Left damage indicator center
+22		512		752				// Back damage indicator center
+23		1008	384				// Right damage indicator center
+24		904		14				// ammo in clip (bar) ul coord
+25		43		38				// ammo in clip (bar) width and height
+26		320		16				// Front damage indicator center SPLITSCREEN (relative to clip region)
+27		16		240				// Left damage indicator center SPLITSCREEN (relative to clip region)
+28		320		232				// Back damage indicator center SPLITSCREEN (relative to clip region)
+29		212		240				// Right damage indicator center SPLITSCREEN (relative to clip region)
+30		272		10				// hud persona message box background ul
+31		480		68				// hud persona message box background w/h
+32		350		23				// hud persona message box text area upper left
+33		629		0				// hud persona message box text area width (height ignored)
+34		274		23				// hud persona head image
+35		274		92				// hud persona head image name
+36		0		648				// hud persona sub offset
+37		512		600				// hud message (non persona) width and upper Y value (they render centered)
+38		420		0				// hud message log text area width (height ignored)
+39		17		133			// hud countdown timer
+40		35		137				// #define HUD_CORPSE_ICON	
+41		75		180				// #define HUD_CORPSE_TEXT	
+42		38		44				// #define HUD_JEEP				
+43		153		54				// #define HUD_JEEP_FRAME	
+44		157		56				// #define HUD_JEEP_VALUE	
+45		62		35				// #define HUD_DRILLER		
+46		229		48				// #define HUD_DRILLER_FRAME
+47		233		50				// #define HUD_DRILLER_VALUE
+#End
+
+
+#1280x1024
+0		24		25				// health
+1		62		53				// health value ul corner
+2		38		19				// health value width and height
+3		5		6				// envirosuit
+4		100		53				// envirosuit value ul corner
+5		39		18				// envirosuit value width and height
+6		1158	12				// ammo bar
+7		1136	12				// ammo signal (behind icon)
+8		1135	12				// ammo icon
+9		1162	15				// ammo in clip text ul region coord
+10		39		28				// ammo in clip text width and height
+11		1206	15				// ammo in inv text ul region coord
+12		59		28				// ammo in inv text width and height
+13		296		218				// reticle
+14		1202	12				// ammo bar position (with no clip, i.e. when using rockets)
+15		1180	12				// ammo signal position (with no clip)
+16		1180	12				// ammo icon position (with no clip)
+17		1206	15				// ammo in inv ul region coord (with no clip)
+18		59		28				// ammo in inv text width and height (with no clip)
+19		134		134				// Scope center circle radius (along x and y axes)
+20		640		16				// Front damage indicator center
+21		16		512				// Left damage indicator center
+22		640		1008			// Back damage indicator center
+23		1264	512				// Right damage indicator center
+24		1159	14				// ammo in clip (bar) ul coord
+25		44		39				// ammo in clip (bar) width and height
+26		320		16				// Front damage indicator center SPLITSCREEN (relative to clip region)
+27		16		240				// Left damage indicator center SPLITSCREEN (relative to clip region)
+28		320		232				// Back damage indicator center SPLITSCREEN (relative to clip region)
+29		212		240				// Right damage indicator center SPLITSCREEN (relative to clip region)
+30		400		10				// hud persona message box background ul
+31		480		68				// hud persona message box background w/h
+32		480		23				// hud persona message box text area upper left
+33		885		0				// hud persona message box text area width (height ignored)
+34		402		23				// hud persona head image
+35		402		92				// hud persona head image name
+36		0		904				// hud persona sub offset
+37		640		850				// hud message (non persona) width and upper Y value (they render centered)
+38		480		0				// hud message log text area width (height ignored)
+39		17		133			// hud countdown timer
+40		35		137				// #define HUD_CORPSE_ICON	
+41		75		180				// #define HUD_CORPSE_TEXT	
+42		38		44				// #define HUD_JEEP				
+43		153		54				// #define HUD_JEEP_FRAME	
+44		157		56				// #define HUD_JEEP_VALUE	
+45		62		35				// #define HUD_DRILLER		
+46		229		48				// #define HUD_DRILLER_FRAME
+47		233		50				// #define HUD_DRILLER_VALUE
+#End

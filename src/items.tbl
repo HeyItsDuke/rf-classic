@@ -1,0 +1,518 @@
+
+// items.tbl
+//
+// file to specify item characteristics
+//
+// $Class Name         - The name of the item
+// $HUD Msg Name:	     - The name as it is displayed onscreen.  LOCALIZED
+// $Pickup Msg Single: - (OPTIONAL) Message on HUD when a single instance of item is picked up. LOCLAIZED.
+// $Pickup Msg Multi:  - (OPTIONAL) Message on HUD when more than one instance of item is picked up. LOCALIZED.
+// $Pickup Msg W&A Single: - (OPTIONAL) Message on HUD when a single instance of item is picked up. LOCLAIZED.
+// $Pickup Msg W&A Multi:  - (OPTIONAL) Message on HUD when more than one instance of item is picked up. LOCALIZED.
+// $V3D Filename       - The name of the V3D file which is rendered for this item
+// $V3D Type           - Class of V3D, one of: "static" "character" "anim"
+// $Count              - The number of this item which are placed by default
+// $Respawn Time       - The length of time in seconds for the object to respawn (use -1 to not respawn)
+// $Pickup Sound:      - (OPTIONAL) sound that is played when item is picked up (overrides default weapon_pickup.wav and powerup_pickup.wav)
+// $Ammo For:          - (OPTIONAL) weapon name (from weapons.tbl) that ammo will be applied to
+// $Gives Weapon:      - (OPTIONAL) weapon name (from weapons.tbl) that item will provide
+// $Flags              "no_pickup" - item cannot be picked up
+// 
+// ------------------------------------------------
+
+#Items
+
+// primary weapons
+
+$Class Name:        "Remote Charge"
+$HUD Msg Name:      XSTR(293, "Remote Charge")
+$Pickup Msg Single: XSTR(294, "Remote Charge picked up")
+$Pickup Msg Multi:  XSTR(295, "%d Remote Charges picked up")
+$V3D Filename:      "rmt_explosive.V3D"
+$V3D Type:          "static"
+$Count:             1
+$Respawn Time:      -1
+$Gives Weapon:      "remote charge"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Remote Charges"
+$HUD Msg Name:      XSTR(296, "Remote Charge")
+$Pickup Msg Single: XSTR(297, "Remote Charge picked up")
+$Pickup Msg Multi:  XSTR(298, "%d Remote Charges picked up")
+$Pickup Msg W&A Single:	XSTR(297, "Remote Charge picked up")
+$Pickup Msg W&A Multi:	XSTR(298, "%d Remote Charges picked up")
+$V3D Filename:      "Item_Explosive_ammo.V3D"
+$V3D Type:          "static"
+$Count:             3
+$Respawn Time:      -1
+$Gives Weapon:      "remote charge"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Riot Stick"
+$HUD Msg Name:      XSTR(299, "Control Baton")
+$Pickup Msg Single: XSTR(300, "Control Baton picked up")
+$Pickup Msg W&A Single:	XSTR(595, "Control Baton and 1 battery picked up")
+$Pickup Msg W&A Multi:	XSTR(596, "Control Baton and %d batteries picked up")
+$V3D Filename:      "weapon_riotstick.v3d"
+$V3D Type:          "static"
+$Count:             1
+$Respawn Time:      -1
+$Gives Weapon:      "Riot Stick"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Handgun"
+$HUD Msg Name:      XSTR(301, "12mm Pistol")
+$Pickup Msg Single: XSTR(302, "12mm pistol picked up")
+$Pickup Msg W&A Single:	XSTR(597, "12mm Pistol and 1 12mm round picked up")
+$Pickup Msg W&A Multi:	XSTR(598, "12mm Pistol and %d 12mm rounds picked up")
+$V3D Filename:      "weapon_ultorgun.v3d"
+$V3D Type:          "static"
+$Count:             16
+$Respawn Time:      -1
+$Gives Weapon:      "12mm handgun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Silenced 12mm Handgun"
+$HUD Msg Name:      XSTR(303, "Silenced 12mm Pistol")
+$Pickup Msg Single: XSTR(304, "12mm pistol with silencer picked up")
+$Pickup Msg W&A Single:	XSTR(599, "Silenced 12mm Pistol and 1 12mm round picked up")
+$Pickup Msg W&A Multi:	XSTR(600, "Silenced 12mm Pistol and %d 12mm rounds picked up")
+$V3D Filename:      "weapon_silenced.v3d"
+$V3D Type:          "static"
+$Count:             16
+$Respawn Time:      -1
+$Gives Weapon:      "12mm handgun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Shotgun"
+$HUD Msg Name:      XSTR(305, "Automatic Shotgun")
+$Pickup Msg Single: XSTR(306, "Automatic Shotgun picked up")
+$Pickup Msg W&A Single:	XSTR(601, "Automatic Shotgun and 1 shell picked up")
+$Pickup Msg W&A Multi:	XSTR(602, "Automatic Shotgun and %d shells picked up")
+$V3D Filename:      "weapon_shotgun.v3d"
+$V3D Type:          "static"
+$Count:             8
+$Respawn Time:      -1
+$Gives Weapon:      "Shotgun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Sniper Rifle"
+$HUD Msg Name:      XSTR(307, "Sniper Rifle")
+$Pickup Msg Single: XSTR(308, "Sniper Rifle picked up")
+$Pickup Msg W&A Single:	XSTR(603, "Sniper Rifle and 1 round picked up")
+$Pickup Msg W&A Multi:	XSTR(604, "Sniper Rifle and %d rounds picked up")
+$V3D Filename:      "Weapon_SniperRifle.v3d"
+$V3D Type:          "static"
+$Count:             6
+$Respawn Time:      -1
+$Gives Weapon:      "Sniper Rifle"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "rocket launcher"
+$HUD Msg Name:      XSTR(309, "Rocket Launcher")
+$Pickup Msg Single: XSTR(310, "Rocket Launcher picked up")
+$Pickup Msg W&A Single:	XSTR(605, "Rocket Launcher and 1 rocket picked up")
+$Pickup Msg W&A Multi:	XSTR(606, "Rocket Launcher and %d rockets picked up")
+$V3D Filename:      "Weapon_RocketLauncher.v3d"
+$V3D Type:          "static"
+$Count:             6
+$Respawn Time:      -1
+$Gives Weapon:      "rocket launcher"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Assault Rifle"
+$HUD Msg Name:      XSTR(311, "Assault Rifle")
+$Pickup Msg Single: XSTR(312, "Assault Rifle picked up")
+$Pickup Msg W&A Single:	XSTR(607, "Assault Rifle and 1 5.56mm round picked up")
+$Pickup Msg W&A Multi:	XSTR(608, "Assault Rifle and %d 5.56mm rounds picked up")
+$V3D Filename:      "Weapon_Aslt_Rifle.v3d"
+$V3D Type:          "static"
+$Count:             42
+$Respawn Time:      -1
+$Gives Weapon:      "Assault Rifle"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Machine Pistol"
+$HUD Msg Name:      XSTR(313, "Submachine Gun")
+$Pickup Msg Single: XSTR(314, "Submachine Gun picked up")
+$Pickup Msg W&A Single:	XSTR(609, "Submachine Gun and 1 12mm round picked up")
+$Pickup Msg W&A Multi:	XSTR(610, "Submachine Gun and %d 12mm rounds picked up")
+$V3D Filename:      "Weapon_MachineP.v3d"
+$V3D Type:          "static"
+$Count:             32
+$Count Multi:	64
+$Respawn Time:      -1
+$Gives Weapon:      "Machine Pistol"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "grenades"
+$HUD Msg Name:      XSTR(315, "Grenade")
+$Pickup Msg Single: XSTR(316, "Grenade picked up")
+$Pickup Msg Multi:  XSTR(317, "%d Grenades picked up")
+$Pickup Msg W&A Single:	XSTR(316, "Grenade picked up")
+$Pickup Msg W&A Multi:	XSTR(317, "%d Grenades picked up")
+$V3D Filename:      "Item_Grenade_ammo.V3D"
+$V3D Type:          "static"
+$Count:             3
+$Respawn Time:      -1
+$Gives Weapon:      "Grenade"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "flamethrower"
+$HUD Msg Name:      XSTR(318, "Flamethrower")
+$Pickup Msg Single: XSTR(319, "Flamethrower picked up")
+$Pickup Msg W&A Single:	XSTR(611, "Flamethrower and 1 fuel canister picked up")
+$Pickup Msg W&A Multi:	XSTR(612, "Flamethrower and %d fuel canisters picked up")
+$V3D Filename:      "Weapon_fthrower.V3D"
+$V3D Type:          "static"
+$Count:             100
+$Count Multi:	200
+$Respawn Time:      -1
+$Gives Weapon:      "flamethrower"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "riot shield"
+$HUD Msg Name:      XSTR(320, "Riot Shield")
+$Pickup Msg Single: XSTR(321, "Riot Shield picked up")
+$Pickup Msg W&A Single:	XSTR(321, "Riot Shield picked up")
+$Pickup Msg W&A Multi:	XSTR(321, "Riot Shield picked up")
+$V3D Filename:      "Weapon_RiotShield.V3D"
+$V3D Type:          "static"
+$Count:             1
+$Respawn Time:      -1
+$Gives Weapon:      "riot shield"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "rail gun"
+$HUD Msg Name:      XSTR(322, "Rail Driver")
+$Pickup Msg Single: XSTR(323, "Rail Driver picked up")
+$Pickup Msg W&A Single:	XSTR(613, "Rail Driver and 1 round picked up")
+$Pickup Msg W&A Multi:	XSTR(614, "Rail Driver and %d rounds picked up")
+$V3D Filename:      "Weapon_RailRifle.V3D"
+$V3D Type:          "static"
+$Count:             8
+$Respawn Time:      -1
+$Gives Weapon:      "rail_gun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "heavy machine gun"
+$HUD Msg Name:      XSTR(324, "Heavy Machine Gun")
+$Pickup Msg Single: XSTR(325, "Heavy Machine Gun picked up")
+$Pickup Msg W&A Single:	XSTR(615, "Heavy Machine Gun and 1 7.62mm round picked up")
+$Pickup Msg W&A Multi:	XSTR(616, "Heavy Machine Gun and %d 7.62mm rounds picked up")
+$V3D Filename:      "Weapon_HeavyMGunB.V3D"
+$V3D Type:          "static"
+$Count:             99
+$Respawn Time:      -1
+$Gives Weapon:      "heavy_machine_gun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "scope assault rifle"
+$HUD Msg Name:      XSTR(326, "Precision Rifle")
+$Pickup Msg Single: XSTR(327, "Precision Rifle picked up")
+$Pickup Msg W&A Single:	XSTR(617, "Precision Rifle and 1 round picked up")
+$Pickup Msg W&A Multi:	XSTR(618, "Precision Rifle and %d rounds picked up")
+$V3D Filename:      "weapon_aslt_rifle2.V3D"
+$V3D Type:          "static"
+$Count:             20
+$Respawn Time:      -1
+$Gives Weapon:      "scope_assault_rifle"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "shoulder cannon"
+$HUD Msg Name:      XSTR(328, "Fusion Rocket Launcher")
+$Pickup Msg Single: XSTR(329, "Fusion Rocket Launcher picked up")
+$Pickup Msg W&A Single:	XSTR(619, "Fusion Rocket Launcher and 1 shell picked up")
+$Pickup Msg W&A Multi:	XSTR(620, "Fusion Rocket Launcher and %d shells picked up")
+$V3D Filename:      "weapon_shoulder.V3D"
+$V3D Type:          "static"
+$Count:             1
+$Respawn Time:      -1
+$Gives Weapon:      "shoulder_cannon"
+$Flags:             ("spins_in_multi")
+
+
+// secondary weapons
+
+
+// primary ammo
+
+$Class Name:        "12mm_ammo"
+$HUD Msg Name:      XSTR(330, "12mm rounds")
+$Pickup Msg Single: XSTR(331, "1 12mm round picked up")
+$Pickup Msg Multi:  XSTR(332, "%d 12mm rounds picked up")
+$V3D Filename:      "Item_pistol_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           32
+$Count Multi:		64
+$Respawn Time:      -1
+$Ammo For:          "12mm handgun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "5.56mm_ammo"
+$HUD Msg Name:      XSTR(333, "5.56mm rounds")
+$Pickup Msg Single: XSTR(334, "1 5.56mm round picked up")
+$Pickup Msg Multi:  XSTR(335, "%d 5.56mm rounds picked up")
+$V3D Filename:      "Item_556mm_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           42
+$Respawn Time:      -1
+$Ammo For:          "Assault Rifle"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "7.62mm_ammo"
+$HUD Msg Name:      XSTR(336, "7.62mm rounds")
+$Pickup Msg Single: XSTR(337, "1 7.62mm round picked up")
+$Pickup Msg Multi:  XSTR(338, "%d 7.62mm rounds picked up")
+$V3D Filename:      "Item_hmac_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           99
+$Respawn Time:      -1
+$Ammo For:          "heavy_machine_gun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "explosive 5.56mm rounds"
+$HUD Msg Name:      XSTR(339, "explosive 5.56mm rounds")
+$Pickup Msg Single: XSTR(340, "1 Precision Rifle round picked up")
+$Pickup Msg Multi:  XSTR(341, "%d Precision Rifle rounds picked up")
+$V3D Filename:      "Item_556mmEX_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           20
+$Respawn Time:      -1
+$Ammo For:          "scope_assault_rifle"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "10gauge_ammo"
+$HUD Msg Name:      XSTR(342, "10 gauge shells")
+$Pickup Msg Single: XSTR(343, "1 Shotgun shell picked up")
+$Pickup Msg Multi:  XSTR(344, "%d Shotgun shells picked up")
+$V3D Filename:      "Item_Shotgun_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           8
+$Respawn Time:      -1
+$Ammo For:          "Shotgun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        ".50cal_ammo"
+$HUD Msg Name:      XSTR(345, ".50 caliber rounds")
+$Pickup Msg Single: XSTR(346, "1 Sniper Rifle round picked up")
+$Pickup Msg Multi:  XSTR(347, "%d Sniper Rifle rounds picked up")
+$V3D Filename:      "Item_50cal_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           6
+$Respawn Time:      -1
+$Ammo For:          "Sniper Rifle"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Napalm"
+$HUD Msg Name:      XSTR(348, "fuel canisters")
+$Pickup Msg Single: XSTR(349, "1 fuel canister picked up")
+$Pickup Msg Multi:  XSTR(350, "%d fuel canisters picked up")
+$V3D Filename:      "powerup_flamecan.V3D"
+$V3D Type:          "static"
+$Count:	           100
+$Count Multi:	200
+$Respawn Time:      -1
+$Ammo For:          "flamethrower"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "rocket_launcher_ammo"
+$HUD Msg Name:      XSTR(351, "rockets")
+$Pickup Msg Single: XSTR(352, "1 rocket picked up")
+$Pickup Msg Multi:  XSTR(353, "%d rockets picked up")
+$V3D Filename:      "Item_rocket_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           6
+$Respawn Time:      -1
+$Ammo For:          "Rocket Launcher"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "railgun_bolts"
+$HUD Msg Name:      XSTR(354, "Rail Driver rounds")
+$Pickup Msg Single: XSTR(355, "1 Rail Driver round picked up")
+$Pickup Msg Multi:  XSTR(356, "%d Rail Driver rounds picked up")
+$V3D Filename:      "item_rail_ammo.v3d"
+$V3D Type:          "static"
+$Count:	           8
+$Respawn Time:      -1
+$Ammo For:          "rail_gun"
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "riot_stick_battery"
+$HUD Msg Name:      XSTR(357, "Control Baton Battery")
+$Pickup Msg Single: XSTR(358, "1 Control Baton battery picked up")
+$Pickup Msg Multi:  XSTR(359, "%d Control Baton batteries picked up")
+$V3D Filename:      "item_Riot_ammo.V3D"
+$V3D Type:          "static"
+$Count:	           100
+$Respawn Time:      -1
+$Ammo For:          "riot stick"
+$Flags:             ("spins_in_multi")
+
+
+// powerups
+
+$Class Name:        "Medical Kit"
+$HUD Msg Name:      XSTR(360, "Medical Kit")
+$Pickup Msg Single: XSTR(361, "Medical Kit picked up")
+$V3D Filename:      "powerup_healthpack01.V3D"
+$V3D Type:          "static"
+$Count:             25
+$Count Multi:		50
+$Respawn Time:      -1
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "First Aid Kit"
+$HUD Msg Name:      XSTR(362, "First Aid Kit")
+$Pickup Msg Single: XSTR(363, "First Aid Kit picked up")
+$V3D Filename:      "meds.v3d"
+$V3D Type:          "static"
+$Count:             25
+$Respawn Time:      -1
+$Flags:             ()
+
+$Class Name:        "Suit Repair"
+$HUD Msg Name:      XSTR(364, "Envirosuit Armor")
+$Pickup Msg Single: XSTR(365, "Envirosuit Armor picked up")
+$V3D Filename:      "Powerup_RepairPack.V3D"
+$V3D Type:          "static"
+$Count:             25
+$Count Multi:		50
+$Respawn Time:      -1
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Miner Envirosuit"
+$HUD Msg Name:      XSTR(366, "Miner Envirosuit")
+$Pickup Msg Single: XSTR(367, "Miner Envirosuit picked up")
+$V3D Filename:      "envirosuit1.V3D"
+$V3D Type:          "static"
+$Count:             1
+$Respawn Time:      -1
+$Pickup Sound:      "envsuit_pickup.wav" 5 0.9
+$Flags:             ()
+
+$Class Name:        "Doctor Uniform"
+$HUD Msg Name:      XSTR(368, "Doctor's Clothing")
+$Pickup Msg Single: XSTR(369, "Doctor's Clothing picked up")
+$V3D Filename:      "Powerup_UndercoverSCI.V3D"
+$V3D Type:          "static"
+$Count:             1
+$Respawn Time:      -1
+$Flags:             ()
+
+$Class Name:        "Multi Invulnerability"
+$HUD Msg Name:      XSTR(682, "Invulnerability")
+$Pickup Msg Single: XSTR(683, "Invulnerability picked up")
+$V3D Filename:      "powerup_invuln.vfx"
+$V3D Type:          "anim"
+$Count:             15
+$Respawn Time:      -1
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Multi Damage Amplifier"
+$HUD Msg Name:      XSTR(684, "Damage Amp")
+$Pickup Msg Single: XSTR(685, "Damage Amp picked up")
+$V3D Filename:      "powerup_damage.V3D"
+$V3D Type:          "static"
+$Count:             30
+$Respawn Time:      -1
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Multi Super Armor"
+$HUD Msg Name:      XSTR(686, "Super Armor")
+$Pickup Msg Single: XSTR(687, "Super Armor picked up")
+$V3D Filename:      "powerup_superarmor.V3D"
+$V3D Type:          "static"
+$Count:             10
+$Respawn Time:      -1
+$Flags:             ("spins_in_multi")
+
+$Class Name:        "Multi Super Health"
+$HUD Msg Name:      XSTR(688, "Super Health")
+$Pickup Msg Single: XSTR(689, "Super Health picked up")
+$V3D Filename:      "powerup_superhealth.V3D"
+$V3D Type:          "static"
+$Count:             10
+$Respawn Time:      -1
+$Flags:             ("spins_in_multi")
+
+
+// inventory items
+
+$Class Name:      "Brainstem"
+$HUD Msg Name:    XSTR(370, "Brainstem")
+$Pickup Msg Single: XSTR(371, "Brainstem picked up")
+$V3D Filename:    "nanotech.v3d"
+$V3D Type:        "static"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+$Class Name:      "keycard"
+$HUD Msg Name:    XSTR(372, "Keycard")
+$Pickup Msg Single: XSTR(373, "Keycard picked up")
+$V3D Filename:    "keycard.v3d"
+$V3D Type:        "static"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+$Class Name:      "Demo_K000"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "keycard_demoK000.vfx"
+$V3D Type:        "anim"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+// multiplayer items
+
+$Class Name:      "flag_red"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "CTFflag-red.vfx"
+$V3D Type:        "anim"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+$Class Name:      "flag_blue"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "CTFflag-blue.vfx"
+$V3D Type:        "anim"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+$Class Name:      "base_red"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "CTFbase_red.v3d"
+$V3D Type:        "static"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+$Class Name:      "base_blue"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "CTFbase_blue.v3d"
+$V3D Type:        "static"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ()
+
+$Class Name:      "CTF Banner Red"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "CTFbanner-red.vfx"
+$V3D Type:        "anim"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ("no_pickup")
+
+$Class Name:      "CTF Banner Blue"
+$HUD Msg Name:    XSTR(374, "Shouldn't be using this")
+$V3D Filename:    "CTFbanner-blue.vfx"
+$V3D Type:        "anim"
+$Count:           1
+$Respawn Time:      -1
+$Flags:           ("no_pickup")
+
+#End
