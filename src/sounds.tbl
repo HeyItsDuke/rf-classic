@@ -1,0 +1,100 @@
+//	The fields for a sound entry are:
+//	1) filename of the sound
+//	2) distance at which sound starts to attenuate (for 3d sounds only)
+//	3) the default volume (from 0.0 -> 1.0)
+//	4) rolloff factor (<1.0 makes sound attenuate quicker, > 1.0 takes longer to attenuate)
+//
+//    Note: DO NOT USE TABS.  Only use spaces for whitespace.
+
+#Sounds Start
+
+// name                    min_dist   volume   rolloff
+"powerup_pickup.wav"        5.0       0.70     1.0       // powerup pickup
+"powerup_respawn.wav"       5.0       0.70     1.0       // powerup respawn
+"negative_Beep.wav"         5.0       0.80     1.0       // negative response beep
+"cue_voice.wav"             2.0       0.80     1.0       // voice start 
+"end_voice.wav"             2.0       0.80     1.0       // voice end
+"debris_03.wav"       	   10.0       0.90     1.0       // debris bouncing
+"geomod_01.wav"            15.0		  1.0      1.0       // geomod 1 (rock exploding)
+"geomod_02.wav"            15.0		  1.0      1.0       // geomod 2 (rock exploding)
+"geomod_03.wav"            15.0		  1.0      1.0       // geomod 3 (rock exploding)
+"shieldhit.wav"             7.0       0.90     1.0       // shield has taken a hit
+"crush_01.wav"             10.0       0.80     1.0       // rock getting smashed by rock crusher
+"crush_02.wav"             10.0       0.80     1.0       // rock getting smashed by rock crusher (alternate)
+"weapon_pickup.wav"         5.0       0.70     1.0       // weapon pickup
+"lavaburn_01.wav"          15.0       0.90     1.0       // entity is burning
+"splash_in.wav"            10.0       0.80     1.0       // generic object going into water sound
+"splash_out.wav"           10.0       0.80     1.0       // generic object cominig out of water sound
+"underwater_01.wav"        10.0       0.80     1.0       // ambient swimming underwater sound
+"swim_01.wav"              10.0       0.80     1.0       // ambient swimming on surface sound
+"jumpland_05.wav"          10.0       0.80     1.0       // grabbing onto a climable fence sound
+"crusher_03.wav"           20.0       0.90     1.0       // debris collapsing
+"Rocket_Scan.wav"           5.0       0.80     1.0       // rocket-launcher locking-on target
+"Rocket_Lock.wav"           5.0       0.80     1.0       // rocket-launcher locked-on target
+"geomod_04.wav"            15.0       0.80     1.0       // geomod 4 (rock exploding underwater)
+"geomod_05.wav"            15.0       0.80     1.0       // geomod 5 (rock exploding underwater)
+"geomod_06.wav"            15.0       0.80     1.0       // geomod 6 (rock exploding underwater)
+"geomod_07.wav"            15.0       0.80     1.0       // geomod 7 (ice exploding)
+"geomod_08.wav"            15.0       0.80     1.0       // geomod 8 (ice exploding)
+"geomod_09.wav"            15.0       0.80     1.0       // geomod 9 (ice exploding)
+"alarm_01.wav"             15.0       0.80     1.0       // alarm sound (non-looping)
+"Beep01.wav"       	      10.0       0.80     1.0       // Airlock pressurization commencing msg
+"Beep02.wav"       	      10.0       0.80     1.0       // Airlock depressurization commencing msg
+"Pressure.wav"             20.0       0.80     1.0       // Airlock pressurize/depressurize sound
+"body_lift.wav"            10.0       0.80     1.0       // player picking up a corpse (2D sound)
+"body_drop.wav"            10.0       0.80     1.0       // dropped corpse hitting the ground
+"death_hit1.wav"           20.0       0.80     1.0       // dropped corpse exploding when hitting the ground really hard
+"Jolt_01.wav"               6.0       0.90     1.0       // damage from electricity
+"Jolt_05.wav"               6.0       0.90     1.0       // another damage from electricity
+"switch_01.wav"             6.0       0.90     1.0       // button has been pressed
+"crusher_02.wav"           10.0       1.00     1.0       // sound of driller vehicle drilling
+"drill_grind.wav"          10.0       0.90     1.0       // sound of driller vehicle trying to drill with worn down drill bits
+"menu_highlight.wav"       10.0       1.0      1.0       // menu button highlighted
+"menu_select.wav"          10.0       0.8      1.0       // menu button clicked
+"panel_highlight.wav"      10.0       1.0      1.0       // panel control highlighted
+"panel_button_click.wav"   10.0       1.0      1.0       // panel control clicked
+"checkbox_on.wav"          10.0       1.0      1.0       // checkbox checked
+"checkbox_off.wav"         10.0       1.0      1.0       // checkbox unchecked
+"panel_scroll_up.wav"      10.0       1.0      1.0       // scrollbar up
+"panel_scroll_down.wav"    10.0       1.0      1.0       // scrollbar down
+"sweep_in.wav"             10.0       1.0      1.0       // panel sliding in
+"sweep_out.wav"            10.0       1.0      1.0       // panel sliding out
+"gasp_01.wav"               5.0       0.6      1.0       // looping sound played when taking damage outside without envirosuit
+"alarm_loop.wav"           15.0       0.9      1.0       // looping sound used for alarm in undercover levels
+"bomb_sym_highlight.wav"   10.0       0.8      1.0       // SND_BOMB_CORRECT_DIGIT
+"bomb_select_negative.wav" 10.0       0.8      1.0       // SND_BOMB_WRONG_DIGIT
+"bomb_select_positive.wav" 10.0       0.8      1.0       // SND_BOMB_ACCESS_COMPLETE
+"bomb_tick.wav"            10.0       0.8      1.0       // SND_BOMB_TICK_LOOP
+"bomb_door.wav"            10.0       0.8      1.0       // SND_BOMB_DOOR
+"bomb_beep_disarm.wav"     10.0       0.8      1.0       // SND_BOMB_DISARMED
+"player_respawn.wav"       10.0       0.8      1.0       // SND_RESPAWN  used in multi
+"weap_disp_on.wav"         10.0       0.5      1.0       // weapon switching sounds
+"weap_disp_off.wav"        10.0       0.5      1.0       // weapon switching sounds
+"weap_disp_scroll.wav"     10.0       0.5      1.0       // weapon switching sounds
+"weap_disp_sel.wav"        10.0       0.5      1.0       // weapon switching sounds
+"Flag_Capture.wav"         30.0       1.0      1.0       // flag was captured
+"Flag_Pickup.wav"          30.0       1.0      1.0       // flag was picked up by you
+"Flag_Respawn.wav"          2.0       1.0      1.0       // flag respawned
+"Flag_Return.wav"          30.0       1.0      1.0       // flag was returned
+"Flag_Steal.wav"           30.0       1.0      1.0       // flag was picked up by an enemy player
+"MP_ANN-01.wav"            10.0       1.0      1.0       // "one"
+"MP_ANN-02.wav"            10.0       1.0      1.0       // "two"
+"MP_ANN-03.wav"            10.0       1.0      1.0       // "three" 
+"MP_ANN-04.wav"            10.0       1.0      1.0       // "four"
+"MP_ANN-05.wav"            10.0       1.0      1.0       // "five"
+"MP_ANN-06.wav"            10.0       1.0      1.0       // "six"
+"MP_ANN-07.wav"            10.0       1.0      1.0       // "seven"
+"MP_ANN-08.wav"            10.0       1.0      1.0       // "eight"
+"MP_ANN-09.wav"            10.0       1.0      1.0       // "nine"
+"MP_ANN-10.wav"            10.0       1.0      1.0       // "ten"
+"MP_ANN-GO.wav"            10.0       1.0      1.0       // "game over"
+"Alarm_05.wav"             10.0       1.0      1.0       // alarm sound (non-looping)
+"MP_ANN_ALLYOURBASE.wav"   10.0       1.0      1.0       // "winner"
+"MP_ANN_01.wav"            10.0       1.0      1.0       // "1 minute remaining"
+"MP_ANN_02.wav"            10.0       1.0      1.0       // "30 seconds remaining"
+"JumpPad.wav"              10.0       1.0      1.0       // jump pad sound
+"damage_pickup.wav"        10.0       0.9      1.0       // pickup damage amplifier
+"damage_shoot.wav"         10.0       0.9      1.0       // shoot with damage amplifier
+"shield_pickup.wav"        10.0       0.9      1.0       // pickup invulnerability
+"shield_shot.wav"          10.0       1.0      1.0       // shot while invulnerable
+#Sounds End

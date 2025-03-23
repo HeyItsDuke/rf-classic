@@ -222,7 +222,7 @@ $Name:                  "Remote Charge"
 $Display Name:			XSTR(296, "Remote Charge")
 $V3D Filename:          "rmt_explosive.v3d"
 $Flags:                 ("remote_charge" "alt_fire" "player_wep" "gravity" "underwater" "silent")
-$Flags2:                ("no_fire_through" "damage_self")
+$Flags2:                ("no_fire_through")
 $Cycle Position:			0
 $Pref Position:			13
 $Fine Aim Region Size:	0.65
@@ -255,7 +255,7 @@ $AI attack range:			10.0 10.0
 $Mass:                  0.2
 $Velocity:              10
 $Fire Wait:             0.75
-$Damage:                500
+$Damage:                500 
 $Damage Multi:			500
 $Lifetime:              20.0
 $Homing:                false
@@ -269,7 +269,7 @@ $Geomod Sound:          "Weapon Geomod Small"
 $Impact Vclips:          ("charge_explode")
 $Impact Vclips Radius:   (2.0)
 $Damage Radius:			5.0
-$Damage Radius Multi:			5.0
+$Damage Radius Multi:			8.0
 	+Crater Radius:      5.0
 $Sticky:                true
 	+Stick Sound:		"default"	"attach_02.wav"		5 0.8
@@ -311,7 +311,7 @@ $AI attack range:			50.0 50.0
 $Mass:                  0.2
 $Velocity:              10
 $Fire Wait:             0.75
-$Damage:                200
+$Damage:                200 
 $Damage Multi:			200
 $Lifetime:              20.0
 $Homing:                false
@@ -376,7 +376,7 @@ $Mass:                  5.0
 $Velocity:              1.5
 $Fire Wait:             1.0
 $Alt Fire Wait:         0.5
-$Damage:                60.0
+$Damage:                60.0 
 $Damage Multi:			60.0
 $Alt Damage:            120.0
 $Alt Damage Multi:		120.0
@@ -639,10 +639,10 @@ $Velocity:              275.0
 $Fire Wait:             1.50
 $Alt Fire Wait:         0.15
 $Num Projectiles:       4
-$Spread Degrees:        3.0
+$Spread Degrees:        3.0 
 $Spread Degrees Multi:	4.0
 $AI Spread Degrees:     5.0 6.0
-$Alt Spread Degrees:    6.0 
+$Alt Spread Degrees:    6.0
 $Alt Spread Degrees Multi:	6.0
 $AI Alt Spread Degrees: 10.0 8.0
 $Damage:                40 
@@ -729,7 +729,7 @@ $Fire Wait:             0.70
 $Spread Degrees:        1.5 
 $Spread Degrees Multi:	1.5
 $AI Spread Degrees:     2.0 2.0
-$Damage:                250
+$Damage:                250 
 $Damage Multi:			150
 $AI Damage Scale:			0.5 1.0
 $Lifetime:              2.0
@@ -784,8 +784,8 @@ $Reload Zero Drain:  	.6
 $Name:                  "Rocket Launcher"
 $Display Name:          XSTR(309, "Rocket Launcher")
 $V3D Filename:          "DrillMissile01.VFX"
-$Flags:                 ("thruster" "player_wep" "infrared" "alt_fire" "alt_lock")
-$Flags2:				("no_fire_through" "damage_self")
+$Flags:                 ("flickers" "thruster" "player_wep" "infrared" "alt_fire" "alt_lock")
+$Flags2:				("no_fire_through")
 $Cycle Position:			5
 $Pref Position:			1
 $Fine Aim Region Size:	0.60
@@ -831,8 +831,9 @@ $Lifetime:              15.0
 $Homing:                false
 $Launch:                "Rocket Launcher"
 $Alt Launch:            "Rocket Launcher"
+//$Alt Launch:            "Rocket Lob"
 $Fly Sound:             "missile_loop.wav"               6 0.9
-$Impact Sound:          "default"  ""
+$Impact Sound:          "default"  "Rocket Hit Default"
 $Geomod Sound:          "Weapon Geomod Small"
 $Impact Vclips:          ("rocket_impact")
 $Impact Vclips Radius:   (1.5)
@@ -868,10 +869,10 @@ $3rd Person V3D:	      "Weapon_Aslt_Rifle.V3D"
 $3rd Person Muzzle Flash Glare:   "Assault Muzzle Flash"
 $1st Person Mesh:        "fp_aslt_rfl.v3d"
 $1st Person FOV:        65
-$1st Person offset:     <-0.064,0.1,-0.28>
+$1st Person offset:     <-0.1,0.1,-0.28>
 $1st Person offset SS:  <0.0,0.1,-0.25>
 $1st Person Muzzle Flash Bitmap:   "muzzleflash04.tga"
-$1st Person Muzzle Flash Radius:   0.4
+$1st Person Muzzle Flash Radius:   0.8
 +State:                "idle"      "fp_aslt_rfl_idle.mvf"
 +State:                "run"       "fp_aslt_rfl_run.mvf"
 +State:                "loop_fire" "fp_aslt_rfl_fire.mvf"
@@ -897,10 +898,10 @@ $Mass:                  0.2
 $Velocity:              275.0
 $Fire Wait:             0.75
 $Alt Fire Wait:         0.1
-$Spread Degrees:        0.8
+$Spread Degrees:        0.8 
 $Spread Degrees Multi:	1.0
 $AI Spread Degrees:     2.0 2.0
-$Alt Spread Degrees:    4.0
+$Alt Spread Degrees:    4.0 
 $Alt Spread Degrees Multi:	3.0
 $AI Alt Spread Degrees: 5.0 5.0
 $Start Sound:           "Assault Attack"
@@ -916,7 +917,7 @@ $Damage Multi:			40
 $AI Damage Scale:			0.4 0.4
 $Lifetime:              2.0
 $Homing:                false
-$Launch:                "Assault Loop"
+$Launch:                ""
 $Alt Launch:            "Assault Loop"
 $Launch Fail:           "Glock Fail"
 $Fly Sound:	            ""
@@ -1098,10 +1099,10 @@ $Clip Reload Time:      1.5
 $Mass:                  0.2
 $Velocity:              275.0
 $Fire Wait:             0.12
-$Spread Degrees:        2.0
+$Spread Degrees:        2.0 
 $Spread Degrees Multi:	3.0
 $AI Spread Degrees:     5.0 5.0
-$Damage:                45
+$Damage:                45 
 $Damage Multi:			50
 $Lifetime:              2.0
 $Homing:                false
@@ -1157,7 +1158,7 @@ $Name:                  "Grenade"
 $Display Name:          XSTR(315, "Grenade")
 $V3D Filename:          "weapon_grenade.v3d"
 $Flags:                 ("from_eye" "player_wep" "gravity" "underwater" "silent" "alt_fire")
-$Flags2:				("no_fire_through" "damage_self")
+$Flags2:				("no_fire_through")
 $Cycle Position:			8
 $Pref Position:			10
 $Fine Aim Region Size:	0.65
@@ -1189,12 +1190,12 @@ $Ammo Type:             "grenade"
 $AI attack range:			30.0 30.0
 $Mass:                  1.5
 $Velocity:              10.0
-$Velocity Multi:		10.0
+$Velocity Multi:		12.5
 $Fire Wait:             3.0
 $Damage:                150 
 $Damage Multi:			150
 $Lifetime:              5.0
-$Lifetime Multi:		5.0
+$Lifetime Multi:		3.0
 $Homing:                false
 $Launch:                ""
 $Alt Launch:            ""
@@ -1223,7 +1224,7 @@ $Name:                  "Flamethrower"
 $Display Name:          XSTR(318, "Flamethrower")
 $V3D Filename:          "powerup_flamecan.V3D"
 $Flags:                 ("continuous_fire" "player_wep" "alt_fire" "gravity")
-$Flags2:				("no_fire_through" "flame" "damage_self" "has_pilot_flame")
+$Flags2:				("no_fire_through" "flame" "has_pilot_flame")
 $Cycle Position:			9
 $Pref Position:			5
 $Fine Aim Region Size:	0.54
@@ -1395,7 +1396,7 @@ $Velocity:              600.0
 $Fire Wait:             1.00
 $Alt Fire Wait:         0.30
 $Damage:                2550 
-$Damage Multi:			2550 
+$Damage Multi:			2550
 $AI Damage Scale:       0.7 0.7
 $Lifetime:              0.5
 $Homing:                false
@@ -1426,7 +1427,7 @@ $Piercing:					true
 	+Piercing Power:		100.0
 	+Ricochet Angle:		180.0
 	+Ricochet Size:		<0.5, 0.5, 0.5>
-//$Multi BBox Size Factor:	0.75
+$Multi BBox Size Factor:	0.75
 
 
 // ----------------------------------------------------------------------------------
@@ -1575,7 +1576,7 @@ $AI Spread Degrees:     0.5 0.5
 $Start Sound:           "SAssault Attack"
 $Start Delay:           0.1
 $Stop Sound:            "SAssault Decay"
-$Damage:                100
+$Damage:                100 
 $Damage Multi:			50
 $AI Damage Scale:			0.5 0.8
 $Lifetime:              2.0
@@ -1633,7 +1634,7 @@ $Name:                  "shoulder_cannon"
 $Display Name:          XSTR(328, "Fusion Rocket Launcher")
 $V3D Filename:          "ShellTest.vfx"
 $Flags:                 ("player_wep" "infrared" "ps2_fp_full_clip")
-$Flags2:						("no_fire_through" "damage_self")
+$Flags2:						("no_fire_through")
 $Cycle Position:	14
 $Pref Position:		0
 $Fine Aim Region Size:	0.65
@@ -1684,7 +1685,7 @@ $Impact Vclips:          ("shoulder_cannon_explode")
 $Impact Vclips Radius:   (9.0)
 $Trail emitter:         ""
 $Damage Radius:         20.0
-$Damage Radius Multi:         20.0
+$Damage Radius Multi:         30.0
    +Crater Radius:      7.0
 $Sticky:                false
 $Glow:                  false
@@ -2718,7 +2719,8 @@ $Lifetime:              5.0
 $Homing:                false
 $Launch:                "Mortar Launch"
 $Fly Sound:             "missile_loop.wav"					10 0.9
-$Impact Sound:          "default"	""
+$Impact Sound:          "default"	"Medium Explosion"
+$Impact Sound:          "flesh"		"Rocket Hit Flesh"
 $Geomod Sound:          "Weapon Geomod Large"
 $Impact Vclips:          ("charge_explode")
 $Impact Vclips Radius:   (2.5)
