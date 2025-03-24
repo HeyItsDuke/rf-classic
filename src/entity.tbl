@@ -5413,7 +5413,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"miner_male"
+	$Persona:					"guard"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -5467,8 +5467,8 @@
 	+Action:                "corpse_drop"           "ult2_corpse_drop.mvf"         ""
 	+Action:                "corpse_carry"          "miner_corpse_carry.mvf"       ""
 	+Action:                "idle_1"                "ult2_idle_HitHead.mvf"        "Ultor Idle"
-	+Action:                "speak"                 "miner_talk.mvf"               ""
-	+Action:                "speak_short"           "miner_talk_short.mvf"         ""
+	+Action:                "speak"                 ""               ""
+	+Action:                "speak_short"           ""         ""
 	+Action:                "reload"                "ult2_reload.mvf"              "Ultor Reload"
 	+Action:                "unholster"             "ult2_draw.mvf"                "Ultor Draw"
 	+Action:                "fire_stand"            "ult2_firing_stand.mvf"        ""
@@ -5703,8 +5703,7 @@
 	+Action:                "flinch_leg_right"      "park_smw_flinch_front.mvf"         ""
 	+Action:                "flinch_stand"          "park_smw_flinch_front.mvf"        ""
 	+Action:                "flinch_attack_stand"   "park_smw_flinch_front.mvf"       ""
-	$Use:                   "ai response"
-	+radius:					   2.0
+	$Use:                   "none"
 	$Collision Sphere:      "csphere_0" 0.5 0.5
 	$Collision Sphere:      "csphere_1" 1.0 1.0
 	$Collision Sphere:      "csphere_2" 5.0 5.0
@@ -5743,7 +5742,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"miner_male"
+	$Persona:					"guard"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -5797,8 +5796,8 @@
 	+Action:                "corpse_drop"           "ult2_corpse_drop.mvf"         ""
 	+Action:                "corpse_carry"          "miner_corpse_carry.mvf"       ""
 	+Action:                "idle_1"                "ult2_idle_HitHead.mvf"        "Ultor Idle"
-	+Action:                "speak"                 "miner_talk.mvf"               ""
-	+Action:                "speak_short"           "miner_talk_short.mvf"         ""
+	+Action:                "speak"                 ""               ""
+	+Action:                "speak_short"           ""         ""
 	+Action:                "reload"                "ult2_reload.mvf"              "Ultor Reload"
 	+Action:                "unholster"             "ult2_draw.mvf"                "Ultor Draw"
 	+Action:                "fire_stand"            "ult2_firing_stand.mvf"        ""
@@ -6033,8 +6032,7 @@
 	+Action:                "flinch_leg_right"      "park_smw_flinch_front.mvf"         ""
 	+Action:                "flinch_stand"          "park_smw_flinch_front.mvf"        ""
 	+Action:                "flinch_attack_stand"   "park_smw_flinch_front.mvf"       ""
-	$Use:                   "ai response"
-	+radius:					   2.0
+	$Use:                   "none"
 	$Collision Sphere:      "csphere_0" 0.5 0.5
 	$Collision Sphere:      "csphere_1" 1.0 1.0
 	$Collision Sphere:      "csphere_2" 6.0 6.0
@@ -6073,7 +6071,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"miner_male"
+	$Persona:					"elite"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -6127,8 +6125,8 @@
 	+Action:                "corpse_drop"           "ult2_corpse_drop.mvf"         ""
 	+Action:                "corpse_carry"          "miner_corpse_carry.mvf"       ""
 	+Action:                "idle_1"                "ult2_idle_HitHead.mvf"        "Ultor Idle"
-	+Action:                "speak"                 "miner_talk.mvf"               ""
-	+Action:                "speak_short"           "miner_talk_short.mvf"         ""
+	+Action:                "speak"                 ""               ""
+	+Action:                "speak_short"           ""         ""
 	+Action:                "reload"                "ult2_reload.mvf"              "Ultor Reload"
 	+Action:                "unholster"             "ult2_draw.mvf"                "Ultor Draw"
 	+Action:                "fire_stand"            "ult2_firing_stand.mvf"        ""
@@ -6363,8 +6361,7 @@
 	+Action:                "flinch_leg_right"      "park_smw_flinch_front.mvf"         ""
 	+Action:                "flinch_stand"          "park_smw_flinch_front.mvf"        ""
 	+Action:                "flinch_attack_stand"   "park_smw_flinch_front.mvf"       ""
-	$Use:                   "ai response"
-	+radius:					   2.0
+	$Use:                   "none"
 	$Collision Sphere:      "csphere_0" 0.5 0.5
 	$Collision Sphere:      "csphere_1" 1.0 1.0
 	$Collision Sphere:      "csphere_2" 12.0 12.0
@@ -6403,7 +6400,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"miner_male"
+	$Persona:					"guard"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -6457,8 +6454,8 @@
 	+Action:                "corpse_drop"           "ult2_corpse_drop.mvf"         ""
 	+Action:                "corpse_carry"          "miner_corpse_carry.mvf"       ""
 	+Action:                "idle_1"                "ult2_idle_HitHead.mvf"        "Ultor Idle"
-	+Action:                "speak"                 "miner_talk.mvf"               ""
-	+Action:                "speak_short"           "miner_talk_short.mvf"         ""
+	+Action:                "speak"                 ""               ""
+	+Action:                "speak_short"           ""         ""
 	+Action:                "reload"                "ult2_reload.mvf"              "Ultor Reload"
 	+Action:                "unholster"             "ult2_draw.mvf"                "Ultor Draw"
 	+Action:                "fire_stand"            "ult2_firing_stand.mvf"        ""
@@ -6693,8 +6690,7 @@
 	+Action:                "flinch_leg_right"      "park_smw_flinch_front.mvf"         ""
 	+Action:                "flinch_stand"          "park_smw_flinch_front.mvf"        ""
 	+Action:                "flinch_attack_stand"   "park_smw_flinch_front.mvf"       ""
-	$Use:                   "ai response"
-	+radius:					   2.0
+	$Use:                   "none"
 	$Collision Sphere:      "csphere_0" 0.5 0.5
 	$Collision Sphere:      "csphere_1" 1.0 1.0
 	$Collision Sphere:      "csphere_2" 3.0 3.0
