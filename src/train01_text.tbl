@@ -1,0 +1,189 @@
+0  "TRAINING_PS2_01_INST_01.wav" 
+En: "OK, Parker, this is the training phase of your Red Faction probationary period."
+Gr: "(gr)OK, Parker, this is the training phase of your Red Faction probationary period."
+Fr: "(fr)OK, Parker, this is the training phase of your Red Faction probationary period." 
+
+1  "TRAINING_PS2_01_INST_02.wav"
+En: "If you survive, you'll be ready to help lead the miner rebellion against Ultor, when the time comes."
+Gr: "(gr)If you survive, you'll be ready to help lead the miner rebellion against Ultor, when the time comes."
+Fr: "(fr)If you survive, you'll be ready to help lead the miner rebellion against Ultor, when the time comes." 
+
+2  "TRAINING_PS2_01_INST_03.wav" 
+En: "Some doors open as you approach."
+Gr: "(gr)Some doors open as you approach."
+Fr: "(fr)Some doors open as you approach." 
+
+3  "TRAINING_PS2_01_INST_04.wav" 
+En: "Others, like this airlock door, require you to press a button to open."
+Gr: "(gr)Others, like this airlock door, require you to press a button to open."
+Fr: "(fr)Others, like this airlock door, require you to press a button to open." 
+
+4  "" 
+En: "Press Use ($USE$) to activate the button and open the doors to the airlock."
+Gr: "(gr)Press Use ($USE$) to activate the button and open the doors to the airlock."
+Fr: "(fr)Press Use ($USE$) to activate the button and open the doors to the airlock." 
+
+5  "TRAINING_PS2_01_INST_05.wav" 
+En: "If the button doesn't work, the door's locked. You'll have to find the access card or control to unlock it."
+Gr: "(gr)If the button doesn't work, the door's locked. You'll have to find the access card or control to unlock it."
+Fr: "(fr)If the button doesn't work, the door's locked. You'll have to find the access card or control to unlock it." 
+
+6  "TRAINING_PS2_01_INST_06.wav" 
+En: "Keep an eye on your suit's gauges, which are in the upper left corner of your HUD. The outer ring is your suit's integrity. If it gets to zero, you suffer damage when you're outside."
+Gr: "(gr)Keep an eye on your suit's gauges, which are in the upper left corner of your HUD. The outer ring is your suit's integrity. If it gets to zero, you suffer damage when you're outside."
+Fr: "(fr)Keep an eye on your suit's gauges, which are in the upper left corner of your HUD. The outer ring is your suit's integrity. If it gets to zero, you suffer damage when you're outside." 
+
+7  "TRAINING_PS2_01_INST_28.wav"  
+En: "The inner ring is your health. When it gets to zero, you're dead."
+Gr: "(gr)The inner ring is your health. When it gets to zero, you're dead."
+Fr: "(fr)The inner ring is your health. When it gets to zero, you're dead." 
+
+8  "TRAINING_PS2_01_INST_07.wav" 
+En: "Practice climbing on the fence, girders, and ladder in your envirosuit."
+Gr: "(gr)Practice climbing on the fence, girders, and ladder in your envirosuit."
+Fr: "(fr)Practice climbing on the fence, girders, and ladder in your envirosuit." 
+
+9  "TRAINING_PS2_01_INST_08.wav"  
+En: "When you're done, climb up the ladder and go through the door."
+Gr: "(gr)When you're done, climb up the ladder and go through the door."
+Fr: "(fr)When you're done, climb up the ladder and go through the door." 
+
+10  "TRAINING_PS2_01_INST_09.wav" 
+En: "Get used to that sound. You'll hear alarms a lot once we strike back at Ultor."
+Gr: "(gr)Get used to that sound. You'll hear alarms a lot once we strike back at Ultor."
+Fr: "(fr)Get used to that sound. You'll hear alarms a lot once we strike back at Ultor." 
+
+11  "TRAINING_PS2_01_INST_10.wav"  
+En: "Step into the security control room to learn how to use a monitor."
+Gr: "(gr)Step into the security control room to learn how to use a monitor."
+Fr: "(fr)Step into the security control room to learn how to use a monitor." 
+
+12  "" 
+En: "Go up to a monitor and press Use ($USE$)."
+Gr: "(gr)Go up to a monitor and press Use ($USE$)."
+Fr: "(fr)Go up to a monitor and press Use ($USE$)." 
+
+13  "TRAINING_PS2_01_INST_11.wav" 
+En: "Monitors let you see through security cameras in other locations. So we can turn Ultor's surveillance systems against them."
+Gr: "(gr)Monitors let you see through security cameras in other locations. So we can turn Ultor's surveillance systems against them."
+Fr: "(fr)Monitors let you see through security cameras in other locations. So we can turn Ultor's surveillance systems against them." 
+
+14  "TRAINING_PS2_01_INST_12.wav"  
+En: "Pretend the barrels are guards and take them out with this turret."
+Gr: "(gr)Pretend the barrels are guards and take them out with this turret."
+Fr: "(fr)Pretend the barrels are guards and take them out with this turret." 
+
+15  ""  
+En: "Walk up to the turret and press Use ($USE$) to control the turret. Press Fire ($FIRE$) to shoot."
+Gr: "(gr)Walk up to the turret and press Use ($USE$) to control the turret. Press Fire ($FIRE$) to shoot."
+Fr: "(fr)Walk up to the turret and press Use ($USE$) to control the turret. Press Fire ($FIRE$) to shoot." 
+
+16  "TRAINING_PS2_01_INST_13.wav"  
+En: "If you've been injured or your suit's been damaged, check containers, medical cabinets, and lockers for medpacks and suit repair kits."
+Gr: "(gr)If you've been injured or your suit's been damaged, check containers, medical cabinets, and lockers for medpacks and suit repair kits."
+Fr: "(fr)If you've been injured or your suit's been damaged, check containers, medical cabinets, and lockers for medpacks and suit repair kits." 
+
+17  ""  
+En: "Go up to a container and press Use ($USE$) to open it."
+Gr: "(gr)Go up to a container and press Use ($USE$) to open it."
+Fr: "(fr)Go up to a container and press Use ($USE$) to open it." 
+
+18  "TRAINING_PS2_01_INST_14.wav"  
+En: "If you ever need to hide a body, pick it up, carry it somewhere out of the way, and dump it."
+Gr: "(gr)If you ever need to hide a body, pick it up, carry it somewhere out of the way, and dump it."
+Fr: "(fr)If you ever need to hide a body, pick it up, carry it somewhere out of the way, and dump it." 
+
+19  ""  
+En: "To pick up a body, get close and press Use ($USE$)."
+Gr: "(gr)To pick up a body, get close and press Use ($USE$)."
+Fr: "(fr)To pick up a body, get close and press Use ($USE$)." 
+
+20  ""  
+En: "To drop a body, find an open space and press Use ($USE$) again."
+Gr: "(gr)To drop a body, find an open space and press Use ($USE$) again."
+Fr: "(fr)To drop a body, find an open space and press Use ($USE$) again." 
+
+21  "TRAINING_PS2_01_INST_19.wav" 
+En: "There's a medic in the room to your right. Medics are sworn to heal anyone, even rebels."
+Gr: "(gr)There's a medic in the room to your right. Medics are sworn to heal anyone, even rebels."
+Fr: "(fr)There's a medic in the room to your right. Medics are sworn to heal anyone, even rebels." 
+
+22  "TRAINING_PS2_01_INST_20.wav" 
+En: "Go to the medic and he'll bandage your wounds."
+Gr: "(gr)Go to the medic and he'll bandage your wounds."
+Fr: "(fr)Go to the medic and he'll bandage your wounds." 
+
+23  "TRAINING_PS2_01_INST_17.wav" 
+En: "Nothing more to shoot here, Parker. Keep moving."
+Gr: "(gr)Nothing more to shoot here, Parker. Keep moving."
+Fr: "(fr)Nothing more to shoot here, Parker. Keep moving." 
+
+24  ""  
+En: "Press Jump ($JUMP$) or Crouch ($CROUCH$) to climb up or down. You can also move forward while looking up or down."
+Gr: "(gr)Press Jump ($JUMP$) or Crouch ($CROUCH$) to climb up or down. You can also move forward while looking up or down."
+Fr: "(fr)Press Jump ($JUMP$) or Crouch ($CROUCH$) to climb up or down. You can also move forward while looking up or down." 
+
+25 "TRAINING_PS2_01_INST_15.wav" 
+En: "Looks like this door is broken. Crouch to get underneath it."
+Gr: "(gr)Looks like this door is broken. Crouch to get underneath it."
+Fr: "(fr)Looks like this door is broken. Crouch to get underneath it." 
+
+26  "" 
+En: "Press Crouch ($CROUCH$) to crawl beneath obstacles that are too low to walk under standing up."
+Gr: "(gr)Press Crouch ($CROUCH$) to crawl beneath obstacles that are too low to walk under standing up."
+Fr: "(fr)Press Crouch ($CROUCH$) to crawl beneath obstacles that are too low to walk under standing up." 
+
+27  "TRAINING_PS2_01_INST_16.wav" 
+En: "Practice jumping across this small gap."
+Gr: "(gr)Practice jumping across this small gap."
+Fr: "(fr)Practice jumping across this small gap." 
+
+28  "" 
+En: "Press Jump ($JUMP$) to leap across the pool of water."
+Gr: "(gr)Press Jump ($JUMP$) to leap across the pool of water."
+Fr: "(fr)Press Jump ($JUMP$) to leap across the pool of water." 
+
+29  "TRAINING_PS2_01_INST_18.wav"  
+En: "This gap is wider. Get a running start and don't jump until you're right at the edge."
+Gr: "(gr)This gap is wider. Get a running start and don't jump until you're right at the edge."
+Fr: "(fr)This gap is wider. Get a running start and don't jump until you're right at the edge." 
+
+30  ""  
+En: "Walk up to the medic and press Use ($USE$) to have him bandage you."
+Gr: "(gr)Walk up to the medic and press Use ($USE$) to have him bandage you."
+Fr: "(fr)Walk up to the medic and press Use ($USE$) to have him bandage you." 
+
+31 "TRAINING_PS2_01_INST_21.wav"  
+En: "Hey! If you destroy the cameras, I can't see you and I'll have a hard time helping you through training."
+Gr: "(gr)Hey! If you destroy the cameras, I can't see you and I'll have a hard time helping you through training."
+Fr: "(fr)Hey! If you destroy the cameras, I can't see you and I'll have a hard time helping you through training." 
+
+32 "TRAINING_PS2_01_INST_22.wav" 
+En: "You need to learn how to use security monitors before progressing to the next training stage."
+Gr: "(gr)You need to learn how to use security monitors before progressing to the next training stage."
+Fr: "(fr)You need to learn how to use security monitors before progressing to the next training stage." 
+
+33 "TRAINING_PS2_01_INST_23.wav" 
+En: "You have to destroy all the barrels to advance to the next section of training."
+Gr: "(gr)You have to destroy all the barrels to advance to the next section of training."
+Fr: "(fr)You have to destroy all the barrels to advance to the next section of training." 
+
+34 "TRAINING_PS2_01_INST_24.wav" 
+En: "You need to let the medic heal you before moving on to the next section of training."
+Gr: "(gr)You need to let the medic heal you before moving on to the next section of training."
+Fr: "(fr)You need to let the medic heal you before moving on to the next section of training." 
+
+35 "TRAINING_PS2_01_INST_25.wav" 
+En: "You must dump the body in the storage room before you can advance to the next training stage."
+Gr: "(gr)You must dump the body in the storage room before you can advance to the next training stage."
+Fr: "(fr)You must dump the body in the storage room before you can advance to the next training stage." 
+
+36 "TRAINING_PS2_01_INST_26.wav"
+En: "You need to open some of the containers before you can progress to the next section of training."
+Gr: "(gr)You need to open some of the containers before you can progress to the next section of training."
+Fr: "(fr)You need to open some of the containers before you can progress to the next section of training." 
+
+37  "TRAINING_PS2_01_INST_27.wav"  
+En: "If those barrels were guards, you'd be dead. Move along to the next area."
+Gr: "(gr)If those barrels were guards, you'd be dead. Move along to the next area."
+Fr: "(fr)If those barrels were guards, you'd be dead. Move along to the next area." 

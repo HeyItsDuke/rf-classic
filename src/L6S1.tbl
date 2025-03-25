@@ -1,0 +1,7 @@
+#Start
+
+//L6S1.rfl Table File
+$Lightmap Clamp Floor: {43, 49, 49}
+$Lightmap Clamp Ceiling: {229, 229, 229}
+
+#End

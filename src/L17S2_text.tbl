@@ -1,0 +1,109 @@
+0  "L17S2_HEN_01.wav"
+En: "That did it! The station's lower section should be open now."
+Gr: "(gr)That did it! The station's lower section should be open now."
+Fr: "(fr)That did it! The station's lower section should be open now."
+
+1  "L17S2_HEN_02.wav"
+En: "Parker, Ultor has received a message from the incoming EDF fleet."
+Gr: "(gr)Parker, Ultor has received a message from the incoming EDF fleet."
+Fr: "(fr)Parker, Ultor has received a message from the incoming EDF fleet."
+
+2  "L17S2_HEN_03.wav"
+En: "It was encoded, so I don't know what it said, but they're panicking down here."
+Gr: "(gr)It was encoded, so I don't know what it said, but they're panicking down here."
+Fr: "(fr)It was encoded, so I don't know what it said, but they're panicking down here."
+
+3  "L17S2_HEN_04.wav" 
+En: "They're destroying documents and computer systems. And the merc docking bays are swarming with activity."
+Gr: "(gr)They're destroying documents and computer systems. And the merc docking bays are swarming with activity."
+Fr: "(fr)They're destroying documents and computer systems. And the merc docking bays are swarming with activity."
+
+4  "" 
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+5  "L17S2_EOS_01.wav"
+En: "Parker, are the defenses down yet? The mercs are in our base, coming from all directions!"
+Gr: "(gr)Parker, are the defenses down yet? The mercs are in our base, coming from all directions!"
+Fr: "(fr)Parker, are the defenses down yet? The mercs are in our base, coming from all directions!"
+
+6  "L17S2_EOS_02.wav" 
+En: "Parker, Hendrix...base overrun...fighting retreat...falling apart...."
+Gr: "(gr)Parker, Hendrix...base overrun...fighting retreat...falling apart...."
+Fr: "(fr)Parker, Hendrix...base overrun...fighting retreat...falling apart...."
+
+7  ""
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+8   "L17S2_HEN_06.wav" 
+En: "Look for overrides to open the station's doors."
+Gr: "(gr)Look for overrides to open the station's doors."
+Fr: "(fr)Look for overrides to open the station's doors."
+
+9   "L17S2_HEN_07.wav" 
+En: "That should open up the lower section of the station."
+Gr: "(gr)That should open up the lower section of the station."
+Fr: "(fr)That should open up the lower section of the station."
+
+10  "L17S2_HEN_08.wav"
+En: "The laser satellites are controlled from this room and the next one."
+Gr: "(gr)The laser satellites are controlled from this room and the next one."
+Fr: "(fr)The laser satellites are controlled from this room and the next one."
+
+11  "L17S2_HEN_09.wav" 
+En: "Each computer controls part of the defensive grid. Take out all eight computers to disable the system."
+Gr: "(gr)Each computer controls part of the defensive grid. Take out all eight computers to disable the system."
+Fr: "(fr)Each computer controls part of the defensive grid. Take out all eight computers to disable the system."
+
+12  "" 
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+13  "L17S2_HEN_11.wav" 
+En: "The defense system is down temporarily. The only way to permanently disable it is to destroy the station."
+Gr: "(gr)The defense system is down temporarily. The only way to permanently disable it is to destroy the station."
+Fr: "(fr)The defense system is down temporarily. The only way to permanently disable it is to destroy the station."
+
+14  ""  
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+15  "L17S2_HEN_13.wav"
+En: "Now overload the reactor and get out!"
+Gr: "(gr)Now overload the reactor and get out!"
+Fr: "(fr)Now overload the reactor and get out!"
+
+16  "L17S2_PAA_01.wav" 
+En: "Reactor overload in 60 seconds."
+Gr: "(gr)Reactor overload in 60 seconds."
+Fr: "(fr)Reactor overload in 60 seconds."
+
+17  "L17S2_PAA_02.wav"
+En: "Reactor overload in 45 seconds."
+Gr: "(gr)Reactor overload in 45 seconds."
+Fr: "(fr)Reactor overload in 45 seconds."
+
+18  "L17S2_PAA_03.wav"
+En: "Reactor overload in 30 seconds."
+Gr: "(gr)Reactor overload in 30 seconds."
+Fr: "(fr)Reactor overload in 30 seconds."
+
+19  "L17S2_PAA_04.wav"
+En: "Reactor overload in 20 seconds."
+Gr: "(gr)Reactor overload in 20 seconds."
+Fr: "(fr)Reactor overload in 20 seconds."
+
+20  "L17S2_PAA_05.wav"
+En: "Reactor overload in 15 seconds."
+Gr: "(gr)Reactor overload in 15 seconds."
+Fr: "(fr)Reactor overload in 15 seconds."
+
+21  "L17S2_PAA_06.wav"
+En: "Reactor overload in 10 seconds...8...7...6...5...4...3...2...1...Overload."
+Gr: "(gr)Reactor overload in 10 seconds...8...7...6...5...4...3...2...1...Overload."
+Fr: "(fr)Reactor overload in 10 seconds...8...7...6...5...4...3...2...1...Overload."

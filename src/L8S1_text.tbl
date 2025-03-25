@@ -1,0 +1,179 @@
+0  "L8S1_HEN_01.wav"  
+En: "You're somewhere above the med labs now, Parker."
+Gr: "(gr)You're somewhere above the med labs now, Parker."
+Fr: "(fr)You're somewhere above the med labs now, Parker." 
+
+1  "L8S1_HEN_02.wav" 
+En: "Try to pick a quiet spot to come down out of the vent."
+Gr: "(gr)Try to pick a quiet spot to come down out of the vent."
+Fr: "(fr)Try to pick a quiet spot to come down out of the vent." 
+
+2  "L8S1_NUR_01.wav" 
+En: "Hmm. He's fading fast. I'd better get the doctor."
+Gr: "(gr)Hmm. He's fading fast. I'd better get the doctor."
+Fr: "(fr)Hmm. He's fading fast. I'd better get the doctor." 
+
+3  "L8S1_MIN_01.wav" 
+En: "Unnnhhhh..."
+Gr: "(gr)Unnnhhhh..."
+Fr: "(fr)Unnnhhhh..."
+
+4  "L8S1_HEN_03.wav" 
+En: "You need a lab coat or you'll have every guard in here down on you."
+Gr: "(gr)You need a lab coat or you'll have every guard in here down on you."
+Fr: "(fr)You need a lab coat or you'll have every guard in here down on you." 
+
+5  "L8S1_HEN_04.wav" 
+En: "There's a doctor's office right next to this room."
+Gr: "(gr)There's a doctor's office right next to this room."
+Fr: "(fr)There's a doctor's office right next to this room." 
+
+6  "L8S1_HEN_05.wav" 
+En: "Don't count on that disguise too much though."
+Gr: "(gr)Don't count on that disguise too much though."
+Fr: "(fr)Don't count on that disguise too much though." 
+
+7  "L8S1_HEN_06.wav" 
+En: "Anyone who gets a good look at you could recognize you."
+Gr: "(gr)Anyone who gets a good look at you could recognize you."
+Fr: "(fr)Anyone who gets a good look at you could recognize you." 
+
+8  "L8S1_EOS_01.wav"  
+En: "Parker, Gryphon's told us a lot more than we ever wanted to know about the Plague."
+Gr: "(gr)Parker, Gryphon's told us a lot more than we ever wanted to know about the Plague."
+Fr: "(fr)Parker, Gryphon's told us a lot more than we ever wanted to know about the Plague." 
+
+9  "L8S1_EOS_02.wav" 
+En: "You have to grab Capek. He's the key to the whole thing."
+Gr: "(gr)You have to grab Capek. He's the key to the whole thing."
+Fr: "(fr)You have to grab Capek. He's the key to the whole thing." 
+
+10  "L8S1_EOS_03.wav" 
+En: "Don't kill him -- hundreds of miners' lives depend on it!"
+Gr: "(gr)Don't kill him -- hundreds of miners' lives depend on it!"
+Fr: "(fr)Don't kill him -- hundreds of miners' lives depend on it!" 
+
+11  "L8S1_HEN_07.wav" 
+En: "Capek'll be in the science labs, past the med labs."
+Gr: "(gr)Capek'll be in the science labs, past the med labs."
+Fr: "(fr)Capek'll be in the science labs, past the med labs." 
+
+12  "L8S1_PAA_01.wav" 
+En: "Security breach in Medical Labs. Additional units requested."
+Gr: "(gr)Security breach in Medical Labs. Additional units requested."
+Fr: "(fr)Security breach in Medical Labs. Additional units requested." 
+
+13  "L8S1_MIN_02.wav" 
+En: "Doc? You've gotta give me something for the pain..."
+Gr: "(gr)Doc? You've gotta give me something for the pain..."
+Fr: "(fr)Doc? You've gotta give me something for the pain..." 
+
+14  "L8S1_DOC_01.wav" 
+En: "Let me take a look at your charts."
+Gr: "(gr)Let me take a look at your charts."
+Fr: "(fr)Let me take a look at your charts." 
+
+15  "L8S1_DOC_02.wav" 
+En: "Who made these notations? I can't even read them!"
+Gr: "(gr)Who made these notations? I can't even read them!"
+Fr: "(fr)Who made these notations? I can't even read them!" 
+
+16  "L8S1_NUR_02.wav" 
+En: "I just need some air."
+Gr: "(gr)I just need some air."
+Fr: "(fr)I just need some air." 
+
+17  "L8S1_MED_01.wav"  
+En: "But the results seem promising, you must admit."
+Gr: "(gr)But the results seem promising, you must admit."
+Fr: "(fr)But the results seem promising, you must admit." 
+
+18  "L8S1_DOC_03.wav" 
+En: "Not enough for Capek. The man is fanatical."
+Gr: "(gr)Not enough for Capek. The man is fanatical."
+Fr: "(fr)Not enough for Capek. The man is fanatical." 
+
+19  "L8S1_MED_02.wav"  
+En: "This specimen has developed nicely, perhaps enough to satisfy even Capek."
+Gr: "(gr)This specimen has developed nicely, perhaps enough to satisfy even Capek."
+Fr: "(fr)This specimen has developed nicely, perhaps enough to satisfy even Capek." 
+
+20  "L8S1_DOC_04.wav"  
+En: "We'll see, once the organs are delivered to the science labs."
+Gr: "(gr)We'll see, once the organs are delivered to the science labs."
+Fr: "(fr)We'll see, once the organs are delivered to the science labs." 
+
+21  "L8S1_NUR_03.wav" 
+En: "It's almost as sickening out here as it is in there."
+Gr: "(gr)It's almost as sickening out here as it is in there."
+Fr: "(fr)It's almost as sickening out here as it is in there." 
+
+22  "L8S1_NUR_04.wav" 
+En: "Shall we bring him back to the ward, doctor?"
+Gr: "(gr)Shall we bring him back to the ward, doctor?"
+Fr: "(fr)Shall we bring him back to the ward, doctor?" 
+
+23  "L8S1_DOC_05.wav"  
+En: "No, keep him here on life support in case we need to harvest more."
+Gr: "(gr)No, keep him here on life support in case we need to harvest more."
+Fr: "(fr)No, keep him here on life support in case we need to harvest more." 
+
+24  "L8S1_NUR_05.wav"  
+En: "Yes, doctor."
+Gr: "(gr)Yes, doctor."
+Fr: "(fr)Yes, doctor." 
+
+25  "L8S1_DOC_06.wav"  
+En: "You're late. The organs are already on the specimen ward."
+Gr: "(gr)You're late. The organs are already on the specimen ward."
+Fr: "(fr)You're late. The organs are already on the specimen ward." 
+
+26  "L8S1_DOC_07.wav"  
+En: "Take them to the labs right away."
+Gr: "(gr)Take them to the labs right away."
+Fr: "(fr)Take them to the labs right away." 
+
+27  "L8S1_DOC_08.wav" 
+En: "I'll be in my office if his condition changes."
+Gr: "(gr)I'll be in my office if his condition changes."
+Fr: "(fr)I'll be in my office if his condition changes." 
+
+28  "L8S1_NUR_06.wav" 
+En: "You'd better hurry. The organs won't keep for long. It'll be your fault if they're unusable."
+Gr: "(gr)You'd better hurry. The organs won't keep for long. It'll be your fault if they're unusable."
+Fr: "(fr)You'd better hurry. The organs won't keep for long. It'll be your fault if they're unusable." 
+
+29  "L8S1_NUR_07.wav" 
+En: "They're over here."
+Gr: "(gr)They're over here."
+Fr: "(fr)They're over here." 
+
+30  "L8S1_HEN_08.wav"
+En: "Go along with this, Parker. It might help you slip past checkpoints easier."
+Gr: "(gr)Go along with this, Parker. It might help you slip past checkpoints easier."
+Fr: "(fr)Go along with this, Parker. It might help you slip past checkpoints easier." 
+
+31  "L8S1_MIN_03.wav"
+En: "Oooooh [low, wordless moan of pain]"
+Gr: "(gr)Oooooh [low, wordless moan of pain]"
+Fr: "(fr)Oooooh [low, wordless moan of pain]" 
+
+32  "L8S1_MIN_04.wav"
+En: "Arrrr [low, wordless moan of pain]"
+Gr: "(gr)Arrrr [low, wordless moan of pain]"
+Fr: "(fr)Arrrr [low, wordless moan of pain]" 
+
+33  "L8S1_NUR_08.wav" 
+En: "Good. Now hurry up -- don't keep them waiting in the lab."
+Gr: "(gr)Good. Now hurry up -- don't keep them waiting in the lab."
+Fr: "(fr)Good. Now hurry up -- don't keep them waiting in the lab." 
+
+34  "L8S1_DOC_09.wav"
+En: "Actually, compared to just a year ago, our failure rate is much lower."
+Gr: "(gr)Actually, compared to just a year ago, our failure rate is much lower."
+Fr: "(fr)Actually, compared to just a year ago, our failure rate is much lower." 
+
+35  "L8S1_MED_03.wav" 
+En: "I know, but the wasted resources still bother me."
+Gr: "(gr)I know, but the wasted resources still bother me."
+Fr: "(fr)I know, but the wasted resources still bother me." 

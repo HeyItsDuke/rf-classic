@@ -1,0 +1,80 @@
+0  "L17S3_HEN_01.wav"
+En: "That's it, Parker. Now get out of there before the whole place blows!"
+Gr: "(gr)That's it, Parker. Now get out of there before the whole place blows!"
+Fr: "(fr)That's it, Parker. Now get out of there before the whole place blows!"
+
+1  "L17S3_HEN_02.wav"
+En: "Great! Now overload the reactor and get out of there!"
+Gr: "(gr)Great! Now overload the reactor and get out of there!"
+Fr: "(fr)Great! Now overload the reactor and get out of there!"
+
+2  "L17S3_HEN_03.wav" 
+En: "Good, Parker. Now find the control room and shut down the satellite defenses."
+Gr: "(gr)Good, Parker. Now find the control room and shut down the satellite defenses."
+Fr: "(fr)Good, Parker. Now find the control room and shut down the satellite defenses."
+
+3  "" 
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+4  "L17S3_HEN_05.wav" 
+En: "Parker, I've lost contact with the Red Faction base."
+Gr: "(gr)Parker, I've lost contact with the Red Faction base."
+Fr: "(fr)Parker, I've lost contact with the Red Faction base."
+
+5  "L17S3_HEN_06.wav" 
+En: "I can't raise Eos, Orion, or anyone else there."
+Gr: "(gr)I can't raise Eos, Orion, or anyone else there."
+Fr: "(fr)I can't raise Eos, Orion, or anyone else there."
+
+6  "L17S3_HEN_07.wav"
+En: "There are miners scattered all over the complex. I'm trying to contact them and gather them together."
+Gr: "(gr)There are miners scattered all over the complex. I'm trying to contact them and gather them together."
+Fr: "(fr)There are miners scattered all over the complex. I'm trying to contact them and gather them together."
+
+7  ""
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+8  ""
+En: ""
+Gr: "(gr)"
+Fr: "(fr)"
+
+9  "L17S3_PAA_01.wav" 
+En: "Reactor overload in 60 seconds."
+Gr: "(gr)Reactor overload in 60 seconds."
+Fr: "(fr)Reactor overload in 60 seconds."
+
+10  "L17S3_PAA_02.wav"
+En: "Reactor overload in 45 seconds."
+Gr: "(gr)Reactor overload in 45 seconds."
+Fr: "(fr)Reactor overload in 45 seconds."
+
+11  "L17S3_PAA_03.wav"
+En: "Reactor overload in 30 seconds."
+Gr: "(gr)Reactor overload in 30 seconds."
+Fr: "(fr)Reactor overload in 30 seconds."
+
+12  "L17S3_PAA_04.wav"
+En: "Reactor overload in 20 seconds."
+Gr: "(gr)Reactor overload in 20 seconds."
+Fr: "(fr)Reactor overload in 20 seconds."
+
+13  "L17S3_PAA_05.wav"
+En: "Reactor overload in 15 seconds."
+Gr: "(gr)Reactor overload in 15 seconds."
+Fr: "(fr)Reactor overload in 15 seconds."
+
+14  "L17S3_PAA_06.wav"
+En: "Reactor overload in 10 seconds...8...7...6...5...4...3...2...1...Overload."
+Gr: "(gr)Reactor overload in 10 seconds...8...7...6...5...4...3...2...1...Overload."
+Fr: "(fr)Reactor overload in 10 seconds...8...7...6...5...4...3...2...1...Overload."
+
+15  ""
+En: "Escape pod access denied unless reactor overload imminent."
+Gr: "(gr)Escape pod access denied unless reactor overload imminent."
+Fr: "(fr)Escape pod access denied unless reactor overload imminent."
+

@@ -89,9 +89,9 @@ Gr: "(gr)Press the Message Log ($MESSAGE_LOG$) button to open or close the messa
 Fr: "(fr)Press the Message Log ($MESSAGE_LOG$) button to open or close the message log." 
 
 18  "" 
-En: ""
-Gr: ""
-Fr: "" 
+En: "Use the directional button or left analog stick to scroll through the messages."
+Gr: "(gr)Use the directional button or left analog stick to scroll through the messages."
+Fr: "(fr)Use the directional button or left analog stick to scroll through the messages." 
 
 19  "TRAINING_PS2_02_INST_10.wav" 
 En: "This log automatically records messages that you receive."
