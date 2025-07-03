@@ -1,7 +1,7 @@
 #Start
 
 // RF Classic Game Table
-$Multiplayer Walk Speed: 6.0
-$Multiplayer Crouch Walk Speed: 3.0
+$Multiplayer Walk Speed: 8.0
+$Multiplayer Crouch Walk Speed: 4.0
 
 #End

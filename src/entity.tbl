@@ -5084,7 +5084,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"miner_male"
+	$Persona:					"empty"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -5374,8 +5374,7 @@
 	+Action:                "flinch_leg_right"      "park_smw_flinch_front.mvf"         ""
 	+Action:                "flinch_stand"          "park_smw_flinch_front.mvf"        ""
 	+Action:                "flinch_attack_stand"   "park_smw_flinch_front.mvf"       ""
-	$Use:                   "ai response"
-	+radius:					   2.0
+	$Use:                   "none"
 	$Collision Sphere:      "csphere_0" 0.5 0.5
 	$Collision Sphere:      "csphere_1" 1.0 1.0
 	$Collision Sphere:      "csphere_2" 5.0 5.0
@@ -5413,7 +5412,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"guard"
+	$Persona:					"empty"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -5742,7 +5741,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"guard"
+	$Persona:					"empty"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -6071,7 +6070,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"elite"
+	$Persona:					"empty"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
@@ -6400,7 +6399,7 @@
 	$Default Secondary:     ""
 	$Attack Style:          "Direct"
 	$Blind Pursuit Time:    20.0
-	$Persona:					"guard"
+	$Persona:					"empty"
 	$FlySnd:                ""
 	$Min FlySnd Volume:     0.6
 	$Footstep Sound:        "Default Footstep"
